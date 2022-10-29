@@ -133,17 +133,30 @@ max-height: 200px;
 padding-top:300px;
 text-align:left;
 padding-bottom:564px;
-background-color: #D2B48C;
+background-color: #DEB887;
+color:black;
 }
-#title
-{
-font-size:30px;
-margin:10px;
+.texthome{
+margin-top: -20%;
+text-align: center;
 }
-#title>.b
-{
-text-align:left;
-color:rgba(14, 1, 1, 0);
+#fath{
+background-color: maroon;
+color:azure;
+}
+.firsthew{
+width: 35%;
+height: 40%;
+border-right: #8B4513;
+margin-left: 40px;
+}
+.bit{
+margin-top: 10%;
+background-color: blue;
+height: 5%;
+width: 5%;
+margin-left: 40px;
+color:blue;
 }
 .links
 {
@@ -288,8 +301,7 @@ transform:translateX(-50%);
 textarea
 {
 outline:none;
-border:2px solid
-white;
+border:2px solid white;
 margin-top:15%;
 background:transparent;
 color:#000;
