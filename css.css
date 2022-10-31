@@ -344,14 +344,14 @@ border-radius:5px;
 #SendCss{
     position: absolute;
     top: 20%;
-    left:47.1%;
+    left:48%;
     text-align: center;
     border-radius: 0%; 
 }
 #Message{
     position: absolute;
     top: 17%;
-    left:47%;
+    left:49%;
     width: 250px;
     height: 35px;
     text-align: center;
@@ -360,7 +360,7 @@ border-radius:5px;
 #Mail{
     position: absolute;
     top: 17%;
-    left:33%;
+    left:30%;
     width: 250px;
     height: 35px;
     text-align: center;
