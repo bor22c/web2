@@ -181,12 +181,13 @@ top: 93%;
 
 #about
 {
-text-align:center;
-width: 100%;
-position:relative;
-
-padding-bottom:163px;
-background-color: #D2B48C;
+    width:100%;
+    height: 600px;
+    top:0%;
+    position:relative;
+    text-align: center;
+    text-size-adjust: 10;
+    background-color: #D2B48C;
 }
 .section-title
 {
@@ -321,7 +322,14 @@ border-radius:5px;
 }
 #ninja-contact
 {
-text-align:center;
+    width:100%;
+    height: 1300px;
+    top:0%;
+    position:relative;
+    text-align: center;
+    text-size-adjust: 10;
+    background-color: #D2B48C;
+
 }
 #copy
 {
@@ -335,7 +343,7 @@ transform:translateX(-50%);
 }
 #slider{
     position: absolute;
-    top: 11%;
+    top: 5%;
     left: 47%;
     width: 1000px;
     height: 200px;
@@ -343,7 +351,7 @@ transform:translateX(-50%);
 }
 #slider2{
     position: absolute;
-    top: 41%;
+    top: 31%;
     left: 47%;
     width: 1000px;
     height: 250px;
@@ -351,9 +359,24 @@ transform:translateX(-50%);
 }
 #slider3{
     position: absolute;
-    top: 76%;
+    top: 58%;
     left: 47%;
     width: 1000px;
     height: 250px;
+    border-radius: 0%;
+}
+#OTZIVI{
+    position: absolute;
+    top: 58%;
+    left: 2%;
+    width: 1000px;
+    height: 250px;
+    border-radius: 0%;
+}
+#Cvaz{
+    position: absolute;
+    top: 0%;
+   
+   text-align: center;
     border-radius: 0%;
 }
