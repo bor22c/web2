@@ -176,7 +176,11 @@ padding:10px;
 position:relative;
 left:5%;
 transform:translateX(-49px);
+<<<<<<< HEAD
 top: 90%;
+=======
+top: 95%;
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 }
 
 
@@ -208,29 +212,31 @@ text-align:center;
 {
 
 width:100%;
+<<<<<<< HEAD
 height: 600px;
+=======
+height: 1300px;
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 top:0%;
 position:relative;
 margin-top: 1%;
 background-color: #D2B48C;
+<<<<<<< HEAD
+=======
+
+}
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 
 }
 
-#suvenirs{
-background-color:#DEB887 ;
-margin-top: 10px;
-height: 500px;
-width: 100%;
-font-size: medium;
-text-align: center;
-}
 #colect{
-background-color:#FFE4C4 ;
-margin-top: 10px;
-height: 500px;
-width: 100%;
-font-size: medium;
-text-align: center;
+    width:100%;
+    height: 600px;
+    top:0%;
+    position:relative;
+    margin-top: 1%;
+    background-color: #D2B48C;
+    text-align: center;
 }
 #contact
 {
@@ -283,7 +289,11 @@ height: 800px;
 top:0%;
 position:relative;
 background-color: #D2B48C;
+<<<<<<< HEAD
 
+=======
+margin-top: 1%;
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 }
 
 #slider{
@@ -295,8 +305,12 @@ height: 200px;
 border-radius: 0%;
 }
 #slider2{
+<<<<<<< HEAD
 position:
 absolute;
+=======
+position: absolute;
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 top: 31%;
 left: 47%;
 width: 1000px;
@@ -370,8 +384,13 @@ border-radius: 15%;
 }
 #buy{
 position: absolute;
+<<<<<<< HEAD
 top: 0%;
 left:45%;
+=======
+top: 3%;
+left:20%;
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 }
 #aboutText{
 font-size:20px;
@@ -380,6 +399,7 @@ font-size:20px;
 font-size:25px;
 }
 #suvinirs{
+<<<<<<< HEAD
 left:45%;
 }
 #Colect2
@@ -387,6 +407,16 @@ left:45%;
 font-size:20px;
 text-decoration:none;
 width:62px;
+=======
+left:65%;
+position: absolute;
+}
+#collectionCss
+{
+font-size:20px;
+text-decoration:none;
+width:100px;
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 margin-top:0px;
 margin-left:0px;
 background:red;
@@ -395,7 +425,61 @@ display:block;
 color:white;
 padding:10px;
 position:relative;
+<<<<<<< HEAD
 left:5%;
 transform:translateX(-49px);
 top: 90%;
+=======
+left:3%;
+transform:translateX(-49px);
+top: 80%;
+}
+#prajs{
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    width: 750px;
+    height: 1000px;
+    border-radius: 0%;
+    margin-left: 10%;
+}
+#collectionCssText{
+    font-size:23px;
+    left:37%;
+    position: absolute;
+    top: 0%;
+}
+#collectionCssText2{
+    font-size:20px;
+}
+#suvinirsText{
+    position: absolute;
+    top: 13%;
+    left: 60%;
+}
+#suvinirsText2{
+    position: absolute;
+    top: 18%;
+    left: 60%;
+}
+#suvinirsText3{
+    position: absolute;
+    top: 22%;
+    left: 60%;
+}
+#suvinirsText4{
+    position: absolute;
+    top: 26%;
+    left: 60%;
+}
+#suvinirsText5{
+    position: absolute;
+    top: 31%;
+    left: 60%;
+}
+#suvinirsText6{
+    position: absolute;
+    top: 36%;
+    left: 60%;
+>>>>>>> e059d4a014e27b5243b6ddab169ea42221a25551
 }
