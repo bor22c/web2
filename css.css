@@ -229,20 +229,20 @@ background-color: #7FFFD4;
 #textcol{
 font-size: 25px;
 text-align: left;
-margin-left: 3%;
+margin-left: 0%;
 }
 #colimg{
     border-radius: 0%;
-    width: 30%;
+    width: 25%;
     height: 40%;
-    left: 80%;
+    left: 87%;
     top:-60%;
 }
 #colimk{
     border-radius: 0%;
-    width: 30%;
+    width: 25%;
     height: 40%;
-    left: 80%;
+    left: 87%;
     top:-55%;
 }
 #contact
@@ -333,11 +333,15 @@ text-align: left;
 
 }
 #Cvaz{
-position: absolute;
+position:absolute;
 top: 0%;
-left:46%;
+left:42%;
 text-align: center;
 border-radius: 0%;
+}
+#textinf{
+    text-align: center;
+    font-size: medium;
 }
 #Link1{
 position: absolute;
@@ -355,34 +359,44 @@ border-radius: 0%;
 opacity: 0.5;
 }
 #SendCss{
+border-color:darkviolet;
 position: absolute;
-top: 19%;
-left:49%;
+top: 34%;
+left:47%;
 text-align: center;
-border-radius: 0%;
+border-radius: 15%;
+height: 100px;
+width: 10%;
 }
 #Message{
+border-color: blueviolet;
 position: absolute;
 top: 14%;
 left:50%;
 width: 250px;
 height: 35px;
 text-align: center;
-border-radius: 15%;
+border-radius: 25%;
+height: 100px;
+width: 10%;
 }
 #Mail{
+border-color: blueviolet;
 position: absolute;
 top: 14%;
 left:34%;
 width: 250px;
 height: 35px;
 text-align: center;
-border-radius: 15%;
+border-radius: 25%;
+height: 100px;
+width: 10%;
 }
 #buy{
-position: absolute;
+float: right;
+position: initial;
 top: 0%;
-left:20%;
+left: 60%;
 }
 #aboutText{
 font-size:20px;
@@ -393,6 +407,86 @@ font-size:25px;
 #suvinirs{
 left:45%;
 }
+#collectionCss
+{
+font-size:20px;
+text-decoration:none;
+width:100px;
+margin-top:0px;
+margin-left:0px;
+background:red;
+border-radius:5px;
+display:block;
+color:white;
+padding:10px;
+position:relative;
+left:3%;
+transform:translateX(-49px);
+top: 80%;
+}
+#prajs{
+position: absolute;
+top: 13%;
+left: 15%;
+width: 750px;
+height: 1000px;
+border-radius: 0%;
+margin-left: 10%;
+}
+#collectionCssText{
+font-size:23px;
+left:37%;
+position: absolute;
+top: 0%;
+}
+#collectionCssText2{
+font-size:20px;
+}
+#suvinirsText{
+position: absolute;
+top: 13%;
+left: 60%;
+}
+#suvinirsText2{
+position: absolute;
+top: 18%;
+left: 60%;
+}
+#suvinirsText3{
+position: absolute;
+top: 22%;
+left: 60%;
+}
+#suvinirsText4{
+position: absolute;
+top: 26%;
+left: 60%;
+}
+#suvinirsText5{
+position: absolute;
+top: 31%;
+left: 60%;
+}
+#suvinirsText6{
+position: absolute;
+top: 36%;
+left: 60%;
+}
+#suvinirsText7{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    }
+    #suvinirsText8{
+        position: absolute;
+        top: 44%;
+        left: 60%;
+        }
+        #suvinirsText9{
+            position: absolute;
+            top: 48%;
+            left: 60%;
+            }
 #Colect2
 {
 font-size:20px;
