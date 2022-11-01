@@ -313,7 +313,7 @@ opacity: 0.7;
 text-align: left;
 
 }
-#Cvaz{
+#Сonnection{
 position: absolute;
 top: 0%;
 left:46%;
@@ -427,16 +427,31 @@ top: 80%;
 }
 #suvinirsText4{
     position: absolute;
-    top: 26%;
+    top: 27%;
     left: 60%;
 }
 #suvinirsText5{
     position: absolute;
-    top: 31%;
+    top: 32%;
     left: 60%;
 }
 #suvinirsText6{
     position: absolute;
-    top: 36%;
+    top: 37%;
+    left: 60%;
+}
+#suvinirsText7{
+    position: absolute;
+    top: 42%;
+    left: 60%;
+}
+#suvinirsText8{
+    position: absolute;
+    top: 48%;
+    left: 60%;
+}
+#suvinirsText9{
+    position: absolute;
+    top: 57%;
     left: 60%;
 }
