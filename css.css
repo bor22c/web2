@@ -362,8 +362,8 @@ border-radius: 15%;
 }
 #buy{
 position: absolute;
-top: 0%;
-left:45%;
+top: 3%;
+left:20%;
 }
 #aboutText{
 font-size:20px;
@@ -372,7 +372,7 @@ font-size:20px;
 font-size:25px;
 }
 #suvinirs{
-left:29%;
+left:65%;
 position: absolute;
 }
 #collectionCss
@@ -395,8 +395,8 @@ top: 80%;
 #prajs{
     position: absolute;
     top: 13%;
-    left: 40%;
-    width: 1000px;
+    left: 15%;
+    width: 750px;
     height: 1000px;
     border-radius: 0%;
     margin-left: 10%;
@@ -409,4 +409,34 @@ top: 80%;
 }
 #collectionCssText2{
     font-size:20px;
+}
+#suvinirsText{
+    position: absolute;
+    top: 13%;
+    left: 60%;
+}
+#suvinirsText2{
+    position: absolute;
+    top: 18%;
+    left: 60%;
+}
+#suvinirsText3{
+    position: absolute;
+    top: 22%;
+    left: 60%;
+}
+#suvinirsText4{
+    position: absolute;
+    top: 26%;
+    left: 60%;
+}
+#suvinirsText5{
+    position: absolute;
+    top: 31%;
+    left: 60%;
+}
+#suvinirsText6{
+    position: absolute;
+    top: 36%;
+    left: 60%;
 }
