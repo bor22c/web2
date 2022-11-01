@@ -2,28 +2,26 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-/>
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
 <link rel="stylesheet" href="css.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/themes/default/default.css">
-
 <link rel="stylesheet" src="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<title>Web Site</title>
+<link rel="icon"href="logo.png">
+<title>Музейно-выставочный комплекс стрелкового оружия Им. М.Т.Калашникова</title>
 </head>
 <body>
+<!— ХЕДЕР —>
 <div id="header">
-<div class="textheader">Музейно-выставочный комплекс<br>стрелкового оружия<br> Им. М.Т.Калашникова </div>
+<div class="textheader">Музейно-выставочный комплекс стрелкового оружия Им. М.Т.Калашникова </div>
 </div>
+<!— ЗНАЧЕК МЕНЮ —>
 <div id="ham" onclick="toggle_menu()">
 <div class="r"></div>
 <div class="r"></div>
 <div class="r"></div>
 </div>
-
+<!— МЕНЮ —>
 <div id="menu">
 <a href="#home">Афиша </a>
 <a href="#about">О нашем музее </a>
@@ -32,100 +30,79 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 <a href="#colect">Коллекции</a>
 <a href="#contact">Контакты</a>
 </div>
-
-
+<!— ГЛАВНАЯ —>
 <div id="home">
-<span id="title" ><b class="b"> Сегодня в нашем музе` </b><span>
-<span></span>
+<span id="title" ><b class="b"> Сегодня в нашем музее </b><span>
+<img src="slider_01.jpg" id="slider">
+<img src="slider_02.jpg" id="slider2">
+<img src="slider.jpg" id="slider3">
 </div>
-<a id="follow" href="https://www.sololearn.com/Profile/24558542/?ref=app">Follow</a>
-
-</div>
-
-<hr />
-
+<!— О МУЗЕЕ —>
 <div id="about">
 <h1 class="section-title">О нас </h1>
 <img src="https://avatars.mds.yandex.net/i?id=ea4112f94754d9d79f0d985f4d6fed8e-5710085-images-thumbs&n=13" alt="user pic" class="small-img">
-<h3>Музейно-выставочный комплекс имени Михаила Тимофеевича Калашникова</h3>
-<p>Музейно-выставочный комплекс стрелкового оружия имени М. Т. Калашникова появился на культурной карте России в 2004 году. Он сразу же стал достопримечательностью столицы Удмуртской Республики — города Ижевска, оружейная история которого насчитывает более двухсот лет.<br>
+<h1 id="aboutHead">Музейно-выставочный комплекс имени Михаила Тимофеевича Калашникова</h1>
+<h1 id="aboutText">Музейно-выставочный комплекс стрелкового оружия имени М. Т. Калашникова появился на культурной карте России в 2004 году. Он сразу же стал достопримечательностью столицы Удмуртской Республики — города Ижевска, оружейная история которого насчитывает более двухсот лет.<br>
 
 Музей по праву носит имя Михаила Тимофеевича Калашникова. Именно в Ижевске удачное конструкторское решение АК-47 получило воплощение в массовом производстве. На заводе «Ижмаш» в специальном КБ родились все пять поколений оружия «семейства Калашникова». Михаил Тимофеевич прожил здесь всю дальнейшую жизнь, став почетным гражданином Ижевска и Удмуртской республики. Вместе с Г.Н. Никоновым, Е.Ф. Драгуновым и В.А. Ярыгиным он составляет славную когорту ижевских конструкторов-оружейников.<br>
 
 Основная экспозиция музея представляет отечественную историю, ретроспективу производства и новые разработки стрелкового оружия. Все выставочные залы оснащены мультимедийным оборудованием. В современных демонстрационных залах (огнестрельный, пневматический и лучно-арбалетный тиры) можно выбрать различные образцы исторического и действующего оружия.<br>
 
-Ежегодно МВК принимает более 160 тысяч посетителей. Это дети и взрослые, жители Удмуртии, России, ближнего и дальнего зарубежья, участники крупных международных соревнований, иностранные гости столицы УР.</p>
+Ежегодно МВК принимает более 160 тысяч посетителей. Это дети и взрослые, жители Удмуртии, России, ближнего и дальнего зарубежья, участники крупных международных соревнований, иностранные гости столицы УР.</h1>
 </div>
-
-<div id="section-dark">
-
-<div id="skills">
-<h1 class="section-title">Покупка Билетов </h1>
-
-<div class="skill">
-<div class="skill-name"> .
-<div class="skill-value"></div>
+<!— ПОКУПКА —>
+<div id="purchase">
+<a id="follow" href="https://www.museum-mtk.ru/">Follow</a>
+<h1 id ="suvinirs">Что вы можете найти в нашей сувенироной лавке? </h1>
+<h1 id="buy">Покупка Билетов </h1>
+<img src="prajs-2022-09-09.jpg" id="prajs">
+<h2 id="suvinirsText"> • «Калашников — это мир» — альбом, уникальное красочное издание</h2>
+<h2 id="suvinirsText2"> • ««АК-47. Оружие-легенда»</h2>
+<h2 id="suvinirsText3"> • «Удмуртия» — трехтомная энциклопедия 2008 года издания</h2>
+<h2 id="suvinirsText4"> • «Удмуртия» — трехтомная энциклопедия 2008 года издания</h2>
+<h2 id="suvinirsText5"> • «Удмуртия» — трехтомная энциклопедия 2008 года издания</h2>
+<h2 id="suvinirsText6"> • «Удмуртия» — трехтомная энциклопедия 2008 года издания</h2>
 </div>
-</div>
-<div class="skill">
-<div class="skill-name">.
-<div class="skill-value"></div> 
-<div class="skill">
-<div class="skill-name">.
-<div class="skill-value"></div>
-</div>
-</div>
-
-<div class="skill">
-<div class="skill-name"> .
-<div class="skill-value"></div>
-</div>
-</div>
-</div>
-</div>
-<div id="suvenirs">
-<h7><b>Что вы можете найти в нашей сувенироной лавке</b> </h7>
-<p>Книги Михаила Тимофеевича Калашникова </p>
-</div>
+<!— КОЛЛЕКЦИЯ —>
 <div id="colect">
-<button> Коллекции Музея</button>
+<h2> Коллекции Музея</h2>
+<a id="collectionCss" href="http://iss.museum-mtk.ru/">Collection</a>
+<p id
+="collectionCssText">Книги Михаила Тимофеевича Калашникова </p>
+<h1 id ="collectionCssText2">
+Музейно-выставочный комплекс стрелкового оружия имени М. Т. Калашникова был открыт в ноябре 2004 года.
+
+Основой его собрания стала коллекция , включающая предметы личного фонда Калашникова, переданные Михаилом Тимофеевичем: фотографии и письменные материалы, личные вещи, мебель книги, подарки, предметы изобразительного искусства.
+
+Музеем целенаправленно комплектуется коллекция оружия — боевого и спортивно-охотничьего, российского (в основном, ижевского) и зарубежного производства, а также оружейные принадлежности.
+
+Музейное собрание пополняется материалами об Ижевских оружейниках, работавших в разное время на предприятиях города: на Ижевском машиностроительном заводе, Ижевском механическом заводе и Ижевском мотозаводе (о конструкторах, технологах, рабочих разных специальностей, создавших городу славу оружейной кузницы страны).
+
+Ведётся систематизация музейных предметов, формирование электронной базы данных. На 01.01.2022 г. музейное собрание составляет 18705 единицы хранения, из них 12141 — предметов основного фонда, 6564 предметов научно-вспомогательного фонда.
+</h1>
 </div>
-<form id="contact">
-<h1 class="section-title">Связь с нами</h1>
+<!— КОНТАКТЫ —>
 <div id="ninja-contact">
-<img src="" alt="user pic" class="small-img">
-<h2>Музеи Калашникова</h2>
-<p style="color:lightgrey;">Eazy</p>
-<div
-id="links" style="font-size:30px;">
-<i class="fab
-fa-github" aria-hidden="true"></i>
-<li class="fab fa-facebook"></li>
-<li class="fab fa-telegram"></li>
+<h1 id="Cvaz">Связь с нами</h1>
+<h1 id="OTZIVI">Отзывы:<br>
+Андрей Бондаренко:<br>
+Отлично провели время, экскурсии очень познавательные, а ещё есть возможность пострелять из настоящего оружия в стрелковом тире. И это просто супер, море эмоций!<br>
+
+Наташа:<br>
+Всем советую посетить этот музей, и прямо рекомендую сводить детей. Несмотря на то, что это выставка оружия, но вся экспозиция прямо вдохновляет любить нашу Родину, и гордиться нашими отцами, дедами, оружейниками. Все очень интересно, экскурсоврды очень грамотные, общительные и отлично знают историю! Советую)!<br>
+</h1>
+<h1 id="Сreators">Created by Kalachnikov Team</h1>
+<input type="submit" value="Send"id="SendCss">
+<input type="text" placeholder="Messages or Suggestion." required id="Message">
+<input type="email" placeholder="E-mail" required id="Mail">
 </div>
-<input
-type="email" placeholder="E-mail" required>
-
-
-<input type="text" placeholder="Messages or Suggestion." required>
-
-
-<input type="submit" value="Send">
-
-</form>
-
-<div id="copy">
-<span>Created by Kalachnikov Team</span>
-</div>
+<!— JS —>
 <script>
-
 var menu = document.getElementById("menu")
 var
 r=document.getElementsByClassName("r")
 function toggle_menu()
 {
-
-
 if(menu.style.left!="85%")
 {
 menu.style.left="85%"
@@ -135,15 +112,12 @@ r[1].style.background="rgba(0,0,0,0)"
 r[2].style.transform="translate(0px,-13px) rotate(-45deg)"
 return
 }
-
 if(menu.style.left != "100%")
 {
 menu.style.left="100%"
 r[0].style.transform="translate(0px,0px) rotate(0deg)"
 r[1].style.background ="rgba(0,0,0,1)"
 r[2].style.transform="translate(0px,0px) rotate(0deg)"
-
-
 return
 }
 }
@@ -155,6 +129,4 @@ skills[i].style.background = "conic-gradient(rgb(255,41,43) "+c[i]+"%, rgb(30,30
 document.getElementsByClassName("skill-value")[i].innerHTML=c[i]+'<span style="font-size:15px;">%</span>'
 }
 </script>
-</script>
 </body>
-</html>

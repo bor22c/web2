@@ -4,9 +4,9 @@ scroll-behavior:smooth;
 }
 body
 {
-margin:10px;
+margin:0px;
 padding:0px;
-font-family:Poppins;
+
 background:linear-gradient(#FFF8DC 50%,#FFF8DC 50%);
 }
 #header{
@@ -74,7 +74,7 @@ text-align:center;
 #header{
 width: 100%;
 height: 200px;
-background-color: #8B4513;
+background-color: #000000ab;
 }
 .textheader
 {
@@ -108,7 +108,7 @@ left: 100%;
 height:40px;
 line-height:30px;
 text-decoration:none;
-margin-top:20%;
+margin-top:17%;
 display:block;
 border-radius:40px;
 
@@ -129,10 +129,10 @@ left:100px;
 #home
 {
 width:100%;
-max-height: 200px;
-padding-top:300px;
-text-align:left;
-padding-bottom:564px;
+height: 1300px;
+top:0%;
+position:relative;
+
 background-color: #D2B48C;
 }
 #title
@@ -165,27 +165,28 @@ display:inline;
 font-size:20px;
 text-decoration:none;
 width:62px;
-margin-top:50px;
-margin-left:10px;
+margin-top:0px;
+margin-left:0px;
 background:rgb(255,41,43,17);
 border-radius:5px;
 display:block;
 color:white;
 padding:10px;
 position:relative;
-left:50%;
+left:5%;
 transform:translateX(-49px);
+top: 95%;
 }
 
 
 #about
 {
-text-align:left;
-width: 95vw;
+width:100%;
+height: 600px;
+top:0%;
 position:relative;
-left:50%;
-transform:translateX(-50%);
-padding-bottom:163px;
+text-align: center;
+text-size-adjust: 10;
 background-color: #D2B48C;
 }
 .section-title
@@ -202,78 +203,27 @@ font-size:50px;
 transform:translateX(-50%);
 text-align:center;
 }
-#section-dark
-{ background:#FFE4C4;
-
-padding-bottom:10px;
-}
-#skills
+#purchase
 {
 
-width: 120wh;
-text-align:center;
-padding-bottom:100px;
-
-color:white;
-}
-.skill
-{
-width:150px;
-height:150px;
-border-radius:50%;
-background:red;
+width:100%;
+height: 1300px;
+top:0%;
 position:relative;
-margin-top:20%;
-left:20%;
-transform:translateX(-50%);
-font-size:20px;
-}
-.skill-name
-{
-width:125px;
-height:125px;
-background:rgb(40,40,40);
-line-height:125px;
-border-radius:50%;
-position:relative;
-left:50%;
-top:50%;
-transform:translate(-50%,-50%);
-}
-.skill-name:hover
-{
-color:rgba(255,255,255,0);
-}
-.skill-name:hover .skill-value
-{
-color:rgba(255,255,255,1);
-}
-.skill-value
-{
-z-index:10;
-position:relative;
-top:-125px;
-color:rgba(0,0,0,0);
-font-size:25px;
-transition:all 0.3s;
+margin-top: 1%;
+background-color: #D2B48C;
+
 }
 
 
-#suvenirs{
-background-color:#DEB887 ;
-margin-top: 10px;
-height: 500px;
-width: 100%;
-font-size: medium;
-text-align: center;
-}
 #colect{
-background-color:#FFE4C4 ;
-margin-top: 10px;
-height: 500px;
-width: 100%;
-font-size: medium;
-text-align: center;
+    width:100%;
+    height: 600px;
+    top:0%;
+    position:relative;
+    margin-top: 1%;
+    background-color: #D2B48C;
+    text-align: center;
 }
 #contact
 {
@@ -321,15 +271,172 @@ border-radius:5px;
 }
 #ninja-contact
 {
-text-align:center;
+width:100%;
+height: 800px;
+top:0%;
+position:relative;
+background-color: #D2B48C;
+margin-top: 1%;
 }
-#copy
-{
-margin-top:100px;
-position:relative;
-font-size:5px;
-width:50%;
-position:relative;
+
+#slider{
+position: absolute;
+top: 5%;
+left: 47%;
+width: 1000px;
+height: 200px;
+border-radius: 0%;
+}
+#slider2{
+position: absolute;
+top: 31%;
+left: 47%;
+width: 1000px;
+height: 250px;
+border-radius: 0%;
+}
+#slider3{
+position: absolute;
+top: 58%;
+left: 47%;
+width: 1000px;
+height: 250px;
+border-radius: 0%;
+}
+#OTZIVI{
+position: absolute;
+top: 75%;
+left: 2%;
+font-size:20px;
+border-radius: 0%;
+opacity: 0.7;
+text-align: left;
+
+}
+#Cvaz{
+position: absolute;
+top: 0%;
+left:46%;
+text-align: center;
+border-radius: 0%;
+}
+#Link1{
+position: absolute;
+top: 80%;
+left:47%;
+text-align: center;
+border-radius: 0%;
+}
+#Сreators{
+position: absolute;
+top: 90%;
+left: 90%;
+font-size:20px;
+border-radius: 0%;
+opacity: 0.5;
+}
+#SendCss{
+position: absolute;
+top: 19%;
+left:49%;
+text-align: center;
+border-radius: 0%;
+}
+#Message{
+position: absolute;
+top: 14%;
 left:50%;
-transform:translateX(-50%);
+width: 250px;
+height: 35px;
+text-align: center;
+border-radius: 15%;
+}
+#Mail{
+position: absolute;
+top: 14%;
+left:34%;
+width: 250px;
+height: 35px;
+text-align: center;
+border-radius: 15%;
+}
+#buy{
+position: absolute;
+top: 3%;
+left:20%;
+}
+#aboutText{
+font-size:20px;
+}
+#aboutHead{
+font-size:25px;
+}
+#suvinirs{
+left:65%;
+position: absolute;
+}
+#collectionCss
+{
+font-size:20px;
+text-decoration:none;
+width:100px;
+margin-top:0px;
+margin-left:0px;
+background:red;
+border-radius:5px;
+display:block;
+color:white;
+padding:10px;
+position:relative;
+left:3%;
+transform:translateX(-49px);
+top: 80%;
+}
+#prajs{
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    width: 750px;
+    height: 1000px;
+    border-radius: 0%;
+    margin-left: 10%;
+}
+#collectionCssText{
+    font-size:23px;
+    left:37%;
+    position: absolute;
+    top: 0%;
+}
+#collectionCssText2{
+    font-size:20px;
+}
+#suvinirsText{
+    position: absolute;
+    top: 13%;
+    left: 60%;
+}
+#suvinirsText2{
+    position: absolute;
+    top: 18%;
+    left: 60%;
+}
+#suvinirsText3{
+    position: absolute;
+    top: 22%;
+    left: 60%;
+}
+#suvinirsText4{
+    position: absolute;
+    top: 26%;
+    left: 60%;
+}
+#suvinirsText5{
+    position: absolute;
+    top: 31%;
+    left: 60%;
+}
+#suvinirsText6{
+    position: absolute;
+    top: 36%;
+    left: 60%;
 }
