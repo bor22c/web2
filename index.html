@@ -2,28 +2,25 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-/>
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
 <link rel="stylesheet" href="css.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/themes/default/default.css">
-
 <link rel="stylesheet" src="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<title>Web Site</title>
+<title>Музейно-выставочный комплекс стрелкового оружия Им. М.Т.Калашникова</title>
 </head>
 <body>
+ <!-- ХЕДЕР -->
 <div id="header">
 <div class="textheader">Музейно-выставочный комплекс стрелкового оружия Им. М.Т.Калашникова </div>
 </div>
+ <!-- ЗНАЧЕК МЕНЮ -->
 <div id="ham" onclick="toggle_menu()">
 <div class="r"></div>
 <div class="r"></div>
 <div class="r"></div>
 </div>
-
+<!-- МЕНЮ -->
 <div id="menu">
 <a href="#home">Афиша </a>
 <a href="#about">О нашем музее </a>
@@ -32,16 +29,15 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 <a href="#colect">Коллекции</a>
 <a href="#contact">Контакты</a>
 </div>
-
-
+ <!-- ГЛАВНАЯ -->
 <div id="home">
 <span id="title" ><b class="b"> Сегодня в нашем музее </b><span>
 <img src="slider_01.jpg" id="slider">
 <img src="slider_02.jpg" id="slider2">
 <img src="slider.jpg" id="slider3">
 </div>
-</div>
-<hr />
+
+ <!-- О МУЗЕЕ -->
 <div id="about">
 <h1 class="section-title">О нас </h1>
 <img src="https://avatars.mds.yandex.net/i?id=ea4112f94754d9d79f0d985f4d6fed8e-5710085-images-thumbs&n=13" alt="user pic" class="small-img">
@@ -54,28 +50,28 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 
 Ежегодно МВК принимает более 160 тысяч посетителей. Это дети и взрослые, жители Удмуртии, России, ближнего и дальнего зарубежья, участники крупных международных соревнований, иностранные гости столицы УР.</h1>
 </div>
+  <!-- ПОКУПКА -->
 <div id="purchase">
-<a id="follow" href="https://www.museum-mtk.ru/">Follow</a>
-<h1 id ="suvinirs">Что вы можете найти в нашей сувенироной лавке </h1>
-<h1 id="buy">Покупка Билетов </h1>
-<p>Книги Михаила Тимофеевича Калашникова </p>
-<img src="prajs-2022-09-09.jpg" id="prajs">
+ <a id="follow" href="https://www.museum-mtk.ru/">Follow</a>
+ <h1 id ="suvinirs">Что вы можете найти в нашей сувенироной лавке? </h1>
+ <h1 id="buy">Покупка Билетов </h1>
+ <img src="prajs-2022-09-09.jpg" id="prajs">
 </div>
+  <!-- КОЛЛЕКЦИЯ -->
 <div id="colect">
-<h2> Коллекции Музея</h2>
-<a id="collectionCss" href="http://iss.museum-mtk.ru/">Collection</a>
+ <h2> Коллекции Музея</h2>
+ <a id="collectionCss" href="http://iss.museum-mtk.ru/">Collection</a>
+ <p id ="collectionCssText">Книги Михаила Тимофеевича Калашникова </p>
 </div>
-<form id="contact">
-<div id="suvenirs">
+<!-- КОНТАКТЫ -->
 <div id="ninja-contact">
 <h1 id="Cvaz">Связь с нами</h1>
 <h1 id="OTZIVI">Отзывы:<br>
-Андрей Бондаренко<br>
+Андрей Бондаренко:<br>
 Отлично провели время, экскурсии очень познавательные, а ещё есть возможность пострелять из настоящего оружия в стрелковом тире. И это просто супер, море эмоций!<br>
 
-Наташа<br>
+Наташа:<br>
 Всем советую посетить этот музей, и прямо рекомендую сводить детей. Несмотря на то, что это выставка оружия, но вся экспозиция прямо вдохновляет любить нашу Родину, и гордиться нашими отцами, дедами, оружейниками. Все очень интересно, экскурсоврды очень грамотные, общительные и отлично знают историю! Советую)!<br>
-
 </h1>
 <li class="fab fa-facebook"></li>
 <i
@@ -85,21 +81,14 @@ class="fabfa-github" aria-hidden="true"></i>
 <input type="submit" value="Send"id="SendCss">
 <input type="text" placeholder="Messages or Suggestion." required id="Message">
 <input type="email" placeholder="E-mail" required id="Mail">
-
-
 </div>
-<div id="Link1"></div>
-</div>
-</form>
+<!-- JS -->
 <script>
-
 var menu = document.getElementById("menu")
 var
 r=document.getElementsByClassName("r")
 function toggle_menu()
 {
-
-
 if(menu.style.left!="85%")
 {
 menu.style.left="85%"
@@ -109,15 +98,12 @@ r[1].style.background="rgba(0,0,0,0)"
 r[2].style.transform="translate(0px,-13px) rotate(-45deg)"
 return
 }
-
 if(menu.style.left != "100%")
 {
 menu.style.left="100%"
 r[0].style.transform="translate(0px,0px) rotate(0deg)"
 r[1].style.background ="rgba(0,0,0,1)"
 r[2].style.transform="translate(0px,0px) rotate(0deg)"
-
-
 return
 }
 }
@@ -128,7 +114,6 @@ for(var i = 0; i<4;i++)
 skills[i].style.background = "conic-gradient(rgb(255,41,43) "+c[i]+"%, rgb(30,30,30) "+c[i]+"%)"
 document.getElementsByClassName("skill-value")[i].innerHTML=c[i]+'<span style="font-size:15px;">%</span>'
 }
-</script>
 </script>
 </body>
 </html>
