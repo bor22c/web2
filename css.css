@@ -7,11 +7,18 @@ body
 {
 margin:0px;
 padding:0px;
-
 background:linear-gradient(#FFF8DC 50%,#FFF8DC 50%);
 }
 
 /*классы */
+
+.suvinirsText{
+    margin-top: 3%;
+}
+.slider{
+   margin-top: 4%;
+   margin-left: 13%;
+}
 .textheader
 {
 font-size:35px;
@@ -34,7 +41,7 @@ border-radius:10px;
 }
 .section-title
 {
-width:500px;
+width:700px;
 top:10px;
 margin-top:0px;
 color:#000000;
@@ -144,30 +151,7 @@ position:relative;
 background-color: #D2B48C;
 
 }
-#slider{
- position: absolute;   
- top: 5%;
- left: 47%;
- width: 1000px;
- height: 200px;
- border-radius: 0%;
-}
- #slider2{
-position: absolute;
-top: 31%;
-left: 47%;
-width: 1000px;
-height: 250px;
-border-radius: 0%;
-    }
-#slider3{
-position: absolute;
-top: 58%;
-left: 47%;
-width: 1000px;
-height: 250px;
-border-radius: 0%;
-}
+
 
 /* о*/
 
@@ -220,12 +204,11 @@ top: 95%;
 
 #prajs{
 position: absolute;
-top: 13%;
+top: 10%;
 left: 15%;
-width: 750px;
-height: 1000px;
+width: 1000px;
+height: 1150px;
 border-radius: 0%;
-margin-left: 10%;
 }
 
 /* коллекция*/
@@ -254,13 +237,7 @@ padding:10px;
 position:relative;
 left:3%;
 transform:translateX(-49px);
-top: 80%;
-}
-#collectionCssText{
-font-size:23px;
-left:37%;
-position: absolute;
-top: 0%;
+top: 75%;
 }
 #collectionCssText2{
 font-size:20px;
@@ -303,9 +280,12 @@ opacity: 0.5;
 #SendCss{
 position: absolute;
 top: 19%;
-left:49%;
+left:48.5%;
 text-align: center;
 border-radius: 0%;
+background-color: white;
+width: 75;
+height: 100;
 }
 #Message{
 position: absolute;
@@ -319,7 +299,7 @@ border-radius: 15%;
 #Mail{
 position: absolute;
 top: 14%;
-left:34%;
+left:36%;
 width: 250px;
 height: 35px;
 text-align: center;
@@ -333,49 +313,4 @@ top:0%;
 position:relative;
 background-color: #D2B48C;
 margin-top: 1%;
-}
-#suvinirsText{
-position: absolute;
-top: 13%;
-left: 60%;
-}
-#suvinirsText2{
-position: absolute;
-top: 18%;
-left: 60%;
-}
-#suvinirsText3{
-position: absolute;
-top: 22%;
-left: 60%;
-}
-#suvinirsText4{
-position: absolute;
-top: 27%;
-left: 60%;
-}
-#suvinirsText5{
-position: absolute;
-top: 32%;
-left: 60%;
-}
-#suvinirsText6{
-position: absolute;
-top: 37%;
-left: 60%;
-}
-#suvinirsText7{
-position: absolute;
-top: 42%;
-left: 60%;
-}
-#suvinirsText8{
-position: absolute;
-top: 48%;
-left: 60%;
-}
-#suvinirsText9{
-position: absolute;
-top: 57%;
-left: 60%;
 }
