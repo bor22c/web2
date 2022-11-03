@@ -296,24 +296,24 @@ border-color: blueviolet;
 position: absolute;
 top: 23%;
 left:49%;
-width: 250px;
+width: 300px;
 height: 35px;
 text-align: center;
 border-radius: 25%;
 height: 100px;
-width: 10%;
+width: 12%;
 }
 #Mail{
 border-color: blueviolet;
 position: absolute;
 top: 23%;
-left:38%;
-width: 250px;
+left:36%;
+width: 300px;
 height: 35px;
 text-align: center;
 border-radius: 25%;
 height: 100px;
-width: 10%;
+width: 12%;
 }
 /*сувенирная лавка*/
 #suvinirs1{
