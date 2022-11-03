@@ -15,6 +15,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css 
 </head>
 <body>
 <!--heder-->
+<header>
 <div id="header">
 <div class="textheader">Музейно-выставочный комплекс стрелкового оружия Им. М.Т.Калашникова </div>
 <div class="rus" href="#"> Ru </div>
@@ -27,6 +28,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css 
 <div class="r"></div>
 <div class="r"></div>
 </div>
+</header>
 <!--menu-->
 <div id="menu">
 <a href="#home">Афиша </a>
@@ -99,11 +101,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css 
 </div>
 </form>
 <div id="foopter">
-    <div id="images">
-    <div class="imh"><img src="gos.jpg" alt=""></div>
-    <div class="imt"><img src="min.jpg" alt=""></div>
-    <div class="iml"><img src="var.png" alt=""></div>
-</div>
 <div class="footer">
     <P>ЧАСЫ РАБОТЫ<br>
         Вторник-среда, пятница-воскресенье:<br>
@@ -145,13 +142,6 @@ r[1].style.background ="rgba(0,0,0,1)"
 r[2].style.transform="translate(0px,0px) rotate(0deg)"
 return
 }
-}
-var skills=document.getElementsByClassName("skill")
-var c =[82,75,71,90]
-for(var i = 0; i<4;i++)
-{
-skills[i].style.background = "conic-gradient(rgb(255,41,43) "+c[i]+"%, rgb(30,30,30) "+c[i]+"%)"
-document.getElementsByClassName("skill-value")[i].innerHTML=c[i]+'<span style="font-size:15px;">%</span>'
 }
 </script>
 </body>

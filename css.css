@@ -21,10 +21,8 @@ top:0%;
 img
 {
 border-radius:0%;
-display:block;
+display:inherit;
 position:relative ;
-transform:translateX(-50%);
-margin-top:10px;
 background:rgb(42,41,43);
 }
 .small-img
@@ -33,6 +31,7 @@ width:200px;
 height:150px;
 left: 50%;
 border-radius: 10%;
+transform:translateX(-50%);
 }
 
 
@@ -61,7 +60,7 @@ border-bottom: 5px solid #000000ab;
 transition:width 1s, left 1s;
 margin-top: 5%;
 left: 100%;
-height: 570px;;
+height: 610px;;
 top:35px;
 position:fixed;
 background: rgba(205,205,205,0.1);
@@ -227,7 +226,7 @@ width:100%;
 height: 1300px;
 top:0%;
 position:relative;
-background-color: #7FFFD4;
+background-color: #7FFFD4; 
 }
 #mainone{
     margin-top: -0%;
@@ -323,6 +322,7 @@ left: 47%;
 width: 1000px;
 height: 200px;
 border-radius: 0%;
+transform:translateX(-50%);
 }
 #slider2{
 position: absolute;
@@ -331,6 +331,7 @@ left: 47%;
 width: 1000px;
 height: 250px;
 border-radius: 0%;
+transform:translateX(-50%);
 }
 #slider3{
 position: absolute;
@@ -339,6 +340,7 @@ left: 47%;
 width: 1000px;
 height: 250px;
 border-radius: 0%;
+transform:translateX(-50%);
 }
 #OTZIVI{
 position: absolute;
@@ -356,6 +358,7 @@ top: 0%;
 left:42%;
 text-align: center;
 border-radius: 0%;
+color: aliceblue;
 }
 #textinf{
     text-align: center;
@@ -450,6 +453,7 @@ width: 750px;
 height: 1000px;
 border-radius: 0%;
 margin-left: 10%;
+transform:translateX(-50%);
 }
 #collectionCssText{
 font-size:23px;
@@ -546,12 +550,12 @@ top: 80%;
 #linkab{
     height: 650px;
     width: 100%;
-    background-color:#7FFFD4;
+    background-color: #5F9EA0;
 }
 #foopter{
     height:600px;
     width: 100%;
-    background-image: url(ger.webp);
+    background-color: #008080;
     margin-top: 0%;
 }
 .footer{
@@ -559,7 +563,7 @@ top: 80%;
     font-size: 20px;
     left: 60%;
   margin-left: 75%;
-  margin-top: -15%;
+  margin-top: -1%;
 
 }
 .bigfot{
@@ -569,16 +573,12 @@ top: 80%;
 }
 .vk{
     color:#FFFFE0;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 75%;
 }
 .imgvk{
     width: 100px;
-    height: 100px;
-    margin-top: 7%;
-    margin-left: 75%;
-}
-.images{
-    left: 50%;
-    top:10px;
+    height: 200px;
+    margin-top: 8%;
+    margin-left: 80%;
 }
