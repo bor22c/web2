@@ -413,7 +413,7 @@ width: 10%;
 float: right;
 position: initial;
 top: 0%;
-left: 60%;
+margin-left: 60%;
 }
 #aboutText{
 font-size:20px;
@@ -471,39 +471,39 @@ left: 60%;
 }
 #suvinirsText3{
 position: absolute;
-top: 22%;
+top: 23%;
 left: 60%;
 }
 #suvinirsText4{
 position: absolute;
-top: 26%;
+top: 28%;
 left: 60%;
 }
 #suvinirsText5{
 position: absolute;
-top: 31%;
+top: 33%;
 left: 60%;
 }
 #suvinirsText6{
 position: absolute;
-top: 36%;
+top: 38%;
 left: 60%;
 }
 #suvinirsText7{
-    position: absolute;
-    top: 40%;
-    left: 60%;
-    }
-    #suvinirsText8{
-        position: absolute;
-        top: 44%;
-        left: 60%;
-        }
-        #suvinirsText9{
-            position: absolute;
-            top: 48%;
-            left: 60%;
-            }
+position: absolute;
+top: 43%;
+left: 60%;
+}
+#suvinirsText8{
+position: absolute;
+top: 48%;
+left: 60%;
+}
+#suvinirsText9{
+position: absolute;
+top: 56%;
+left: 60%;
+}
 #Colect2
 {
 font-size:20px;
