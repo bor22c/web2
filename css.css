@@ -7,7 +7,7 @@ body
 {
 margin:0px;
 padding:0px;
-background-color:   rgba(131, 131, 237, 0.51);
+background-color:   #F5F5F5;
 }
 
 /*классы */
@@ -76,6 +76,16 @@ transform:translateX(-50%);
 display:block;
 border-radius:5px;
 }
+.language{
+    top: 0%;
+    position: absolute;
+    left: 80%;
+}
+.language2{
+    top: 0%;
+    position: absolute;
+    left: 86%;
+}
 /*хедер */
 
 #header{
@@ -113,17 +123,14 @@ border-top:5px solid rgb(255, 6, 6) ;
 border-right: 5px solid rgb(255, 8, 8);
 border-bottom: 5px solid rgb(248, 8, 8);
 transition:width 1s, left 1s;
-margin-top: 10%;
+margin-top: 3%;
 left: 100%;
 height: 570px;;
-top:107px;
 position:fixed;
 background: rgba(205,205,205,0.1);
 backdrop-filter:blur(10px);
 text-align:center;
 }
-
-
 #menu>*
 {
 font-size:20px;
@@ -133,7 +140,7 @@ left: 100%;
 height:40px;
 line-height:30px;
 text-decoration:none;
-margin-top:17%;
+margin-top:18%;
 display:block;
 border-radius:40px;
 }
@@ -150,7 +157,7 @@ width:100%;
 height: 1300px;
 top:0%;
 position:relative;
-background: linear-gradient(70deg, rgb(174, 174, 255), rgb(248, 237, 239));
+background-color: #40E0D0; 
 }
 
 
@@ -162,9 +169,9 @@ width:100%;
 height: 600px;
 top:0%;
 position:relative;
-text-align: center;
+text-align: left;
 text-size-adjust: 10;
-background-color: #D2B48C;
+background-color:  #AFEEEE;
 margin-top: 1%;
 }
 #aboutText{
@@ -183,7 +190,7 @@ height: 1300px;
 top:0%;
 position:relative;
 margin-top: 1%;
-background-color: #D2B48C;
+background-color:  #7FFFD4;
 }
 #follow
 {
@@ -220,7 +227,7 @@ height: 800px;
 top:0%;
 position:relative;
 margin-top: 1%;
-background-color: #D2B48C;
+background-color: #40E0D0;
 text-align: center;
 }
 #collectionCss
@@ -245,17 +252,30 @@ font-size: 25px;
 text-align: left;
 left: 1%;
 }
+#colectimg{
+    left:72% ;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 10%;
+}
+#colect2{
+    left:72% ;
+    position: absolute;
+    width: 300px;
+    height: 300px;   
+    top: 50%;
+}
 
-    
 /* контакты*/
 
-#ninja-contact
+#contact
 {
 width:100%;
 height: 800px;
 top:0%;
 position:relative;
-background-color: #D2B48C;
+background-color: #48D1CC;
 margin-top: 1%;
 }
 #OTZIVI{
@@ -316,12 +336,14 @@ border-radius: 25%;
 height: 100px;
 width: 12%;
 }
+
 /*сувенирная лавка*/
+
 #suvinirs1{
 width:100%;
 height: 800px;
 top:0%;
 position:relative;
-background-color: #D2B48C;
+background-color: #48D1CC;
 margin-top: 1%;
 }
