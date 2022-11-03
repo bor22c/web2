@@ -491,17 +491,17 @@ left: 60%;
 }
 #suvinirsText7{
     position: absolute;
-    top: 40%;
+    top: 41.5%;
     left: 60%;
     }
     #suvinirsText8{
         position: absolute;
-        top: 44%;
+        top: 47%;
         left: 60%;
         }
         #suvinirsText9{
             position: absolute;
-            top: 48%;
+            top: 55%;
             left: 60%;
             }
 #Colect2
@@ -547,35 +547,10 @@ top: 80%;
     top: 13%;
     left: 60%;
 }
-#suvinirsText2{
-    position: absolute;
-    top: 18%;
-    left: 60%;
-}
-#suvinirsText3{
-    position: absolute;
-    top: 22%;
-    left: 60%;
-}
-#suvinirsText4{
-    position: absolute;
-    top: 26%;
-    left: 60%;
-}
-#suvinirsText5{
-    position: absolute;
-    top: 31%;
-    left: 60%;
-}
-#suvinirsText6{
-    position: absolute;
-    top: 36%;
-    left: 60%;
-}
 #linkab{
     height: 600px;
     width: 100%;
-    background-color: #40E0D0;
+    background-color:#7FFFD4;
 }
 #foopter{
     height:850px;
