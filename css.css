@@ -242,9 +242,10 @@ top: 83%;
 #textcol{
 font-size: 25px;
 text-align: left;
-margin-left: 0%;
+left: 1%;
 }
 
+    
 /* контакты*/
 
 #ninja-contact
@@ -283,7 +284,7 @@ opacity: 0.5;
 #SendCss{
 border-color:darkviolet;
 position: absolute;
-top: 25%;
+top: 36%;
 left:44%;
 text-align: center;
 border-radius: 15%;
@@ -293,8 +294,8 @@ width: 10%;
 #Message{
 border-color: blueviolet;
 position: absolute;
-top: 20%;
-left:50%;
+top: 23%;
+left:49%;
 width: 250px;
 height: 35px;
 text-align: center;
@@ -305,8 +306,8 @@ width: 10%;
 #Mail{
 border-color: blueviolet;
 position: absolute;
-top: 20%;
-left:34%;
+top: 23%;
+left:38%;
 width: 250px;
 height: 35px;
 text-align: center;
