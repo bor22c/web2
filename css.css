@@ -23,15 +23,16 @@ img
 border-radius:0%;
 display:block;
 position:relative ;
-left:50%;
 transform:translateX(-50%);
 margin-top:10px;
 background:rgb(42,41,43);
 }
 .small-img
 {
-width:100px;
-height:100px;
+width:200px;
+height:150px;
+left: 50%;
+border-radius: 10%;
 }
 
 
@@ -86,7 +87,7 @@ line-height:30px;
 color:aliceblue;
 }
 .rus{
-    margin-left: 86%;
+    margin-left: 80%;
     color:#7FFFD4;
     font-size: 25px;
     margin-top: -0%;
@@ -95,13 +96,13 @@ color:aliceblue;
 .nol{
     font-size: 35px;
     color:#7FFFD4;
-    margin-left: 94%;
+    margin-left: 90%;
     margin-top: -1.5%;
 }
 .eng{
     font-size: 25px;
     color:#7FFFD4;
-    margin-left: 90%;
+    margin-left: 84%;
     margin-top: -1.5%;
 }
 .r
@@ -543,43 +544,41 @@ top: 80%;
     font-size:20px;
 }
 #linkab{
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-color:#7FFFD4;
 }
 #foopter{
     height:600px;
-    width: 67%;
+    width: 100%;
     background-image: url(ger.webp);
+    margin-top: 0%;
 }
 .footer{
-    color:cadetblue ;
+    color:#FFFFE0 ;
     font-size: 20px;
     left: 60%;
   margin-left: 75%;
-}
-.bigfot{
-    margin-left: 4%;
-    margin-top: -10%;
+  margin-top: -15%;
 
 }
-.imh{
-    height: 100px;
-    width: 100px;
+.bigfot{
+    margin-left: 75%;
     margin-top: 4%;
-    margin-left: 40%;
-    border-radius: 100px;
+    color:#FFFFE0 ;
 }
-.imt{
-    height: 170px;
-    width: 150px;
-    margin-top: -4%;
-    margin-left: 10%;
-    border-radius: 100px;
-} 
-.iml{
-    height: 100px;
+.vk{
+    color:#FFFFE0;
+    margin-top: 4%;
+    margin-left: 75%;
+}
+.imgvk{
     width: 100px;
-    margin-left: 10%;
-    border-radius: 0%;
+    height: 100px;
+    margin-top: 7%;
+    margin-left: 75%;
+}
+.images{
+    left: 50%;
+    top:10px;
 }
