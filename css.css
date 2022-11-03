@@ -1,4 +1,4 @@
-html
+*
 {
 scroll-behavior:smooth;
 }
@@ -84,6 +84,25 @@ width:90%;
 height:35px;
 line-height:30px;
 color:aliceblue;
+}
+.rus{
+    margin-left: 86%;
+    color:#7FFFD4;
+    font-size: 25px;
+    margin-top: -0%;
+
+}
+.nol{
+    font-size: 35px;
+    color:#7FFFD4;
+    margin-left: 94%;
+    margin-top: -1.5%;
+}
+.eng{
+    font-size: 25px;
+    color:#7FFFD4;
+    margin-left: 90%;
+    margin-top: -1.5%;
 }
 .r
 {
@@ -560,11 +579,10 @@ top: 80%;
 }
 #foopter{
     height:850px;
-    width: 100%;
-    background-image: url(znak.gif);
+    width: 67%;
     background-color: white;
 }
-#footer{
+.footer{
     color:cadetblue ;
     font-size: 20px;
     left: 60%;
@@ -572,26 +590,26 @@ top: 80%;
     width: 70%;
   margin-left: 75%;
 }
-#bigfot{
+.bigfot{
     margin-left: 4%;
     margin-top: -10%;
 
 }
-#imh{
+.imh{
     height: 100px;
     width: 100px;
     margin-top: 4%;
     margin-left: 40%;
     border-radius: 100px;
 }
-#imt{
+.imt{
     height: 170px;
     width: 150px;
     margin-top: -4%;
     margin-left: 10%;
     border-radius: 100px;
 } 
-#iml{
+.iml{
     height: 100px;
     width: 100px;
     margin-left: 10%;
