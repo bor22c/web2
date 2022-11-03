@@ -7,17 +7,29 @@ body
 {
 margin:0px;
 padding:0px;
+<<<<<<< HEAD
 background-color: #F5F5F5;
+=======
+background-color:   #F5F5F5;
+>>>>>>> boris
 }
 
 /*классы */
 
 .suvinirsText{
+<<<<<<< HEAD
 margin-top: 3%;
 }
 .slider{
 margin-top: 4%;
 margin-left: 13%;
+=======
+    margin-top: 3%;
+}
+.slider{
+   margin-top: 4%;
+   margin-left: 13%;
+>>>>>>> boris
 }
 .textheader
 {
@@ -77,6 +89,7 @@ display:block;
 border-radius:5px;
 }
 .language{
+<<<<<<< HEAD
 top: 0%;
 position: absolute;
 left: 80%;
@@ -85,6 +98,16 @@ left: 80%;
 top: 0%;
 position: absolute;
 left: 86%;
+=======
+    top: 0%;
+    position: absolute;
+    left: 80%;
+}
+.language2{
+    top: 0%;
+    position: absolute;
+    left: 86%;
+>>>>>>> boris
 }
 /*хедер */
 
@@ -143,6 +166,212 @@ text-decoration:none;
 margin-top:18%;
 display:block;
 border-radius:40px;
+<<<<<<< HEAD
+=======
+}
+#menu>a:hover
+{
+background:rgba(114, 6, 6, 0.247);
+}
+
+/* главная*/
+
+#home
+{
+width:100%;
+height: 1300px;
+top:0%;
+position:relative;
+background-color: #40E0D0; 
+}
+
+
+/* о*/
+
+#about
+{
+width:100%;
+height: 600px;
+top:0%;
+position:relative;
+text-align: left;
+text-size-adjust: 10;
+background-color:  #AFEEEE;
+margin-top: 1%;
+}
+#aboutText{
+font-size:20px;
+}
+#aboutHead{
+font-size:25px;
+}
+
+/*продажа*/
+
+#purchase
+{
+width:100%;
+height: 1300px;
+top:0%;
+position:relative;
+margin-top: 1%;
+background-color:  #7FFFD4;
+}
+#follow
+{
+font-size:20px;
+text-decoration:none;
+width:62px;
+margin-top:0px;
+margin-left:0px;
+background:rgb(255,41,43,17);
+border-radius:5px;
+display:block;
+color:white;
+padding:10px;
+position:relative;
+left:5%;
+transform:translateX(-49px);
+top: 95%;
+}
+
+#prajs{
+position: absolute;
+top: 10%;
+left: 15%;
+width: 1000px;
+height: 1150px;
+border-radius: 0%;
+}
+
+/* коллекция*/
+
+#colect{
+width:100%;
+height: 800px;
+top:0%;
+position:relative;
+margin-top: 1%;
+background-color: #40E0D0;
+text-align: center;
+}
+#collectionCss
+{
+font-size:20px;
+text-decoration:none;
+width:100px;
+margin-top:0px;
+margin-left:0px;
+background:red;
+border-radius:5px;
+display:block;
+color:white;
+padding:10px;
+position:relative;
+left:3%;
+transform:translateX(-49px);
+top: 83%;
+}
+#textcol{
+font-size: 25px;
+text-align: left;
+left: 1%;
+}
+#colectimg{
+    left:72% ;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 10%;
+}
+#colect2{
+    left:72% ;
+    position: absolute;
+    width: 300px;
+    height: 300px;   
+    top: 50%;
+}
+
+/* контакты*/
+
+#contact
+{
+width:100%;
+height: 800px;
+top:0%;
+position:relative;
+background-color: #48D1CC;
+margin-top: 1%;
+}
+#OTZIVI{
+position: absolute;
+top: 75%;
+left: 2%;
+font-size:20px;
+border-radius: 0%;
+opacity: 0.7;
+text-align: left;
+}
+#Сonnection{
+position: absolute;
+top: 0%;
+left:46%;
+text-align: center;
+border-radius: 0%;
+}
+#Сreators{
+position: absolute;
+top: 90%;
+left: 90%;
+font-size:20px;
+border-radius: 0%;
+opacity: 0.5;
+}
+#SendCss{
+border-color:darkviolet;
+position: absolute;
+top: 36%;
+left:44%;
+text-align: center;
+border-radius: 15%;
+height: 100px;
+width: 10%;
+}
+#Message{
+border-color: blueviolet;
+position: absolute;
+top: 23%;
+left:49%;
+width: 300px;
+height: 35px;
+text-align: center;
+border-radius: 25%;
+height: 100px;
+width: 12%;
+}
+#Mail{
+border-color: blueviolet;
+position: absolute;
+top: 23%;
+left:36%;
+width: 300px;
+height: 35px;
+text-align: center;
+border-radius: 25%;
+height: 100px;
+width: 12%;
+}
+
+/*сувенирная лавка*/
+
+#suvinirs1{
+width:100%;
+height: 800px;
+top:0%;
+position:relative;
+background-color: #48D1CC;
+margin-top: 1%;
+>>>>>>> boris
 }
 #menu>a:hover
 {
