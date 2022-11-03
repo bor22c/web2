@@ -215,7 +215,7 @@ border-radius: 0%;
 
 #colect{
 width:100%;
-height: 600px;
+height: 800px;
 top:0%;
 position:relative;
 margin-top: 1%;
@@ -237,7 +237,12 @@ padding:10px;
 position:relative;
 left:3%;
 transform:translateX(-49px);
-top: 75%;
+top: 83%;
+}
+#textcol{
+font-size: 25px;
+text-align: left;
+margin-left: 0%;
 }
 
 /* контакты*/
@@ -276,32 +281,38 @@ border-radius: 0%;
 opacity: 0.5;
 }
 #SendCss{
+border-color:darkviolet;
 position: absolute;
-top: 19%;
-left:48.5%;
+top: 25%;
+left:44%;
 text-align: center;
-border-radius: 0%;
-background-color: white;
-width: 75;
-height: 100;
+border-radius: 15%;
+height: 100px;
+width: 10%;
 }
 #Message{
+border-color: blueviolet;
 position: absolute;
-top: 14%;
+top: 20%;
 left:50%;
 width: 250px;
 height: 35px;
 text-align: center;
-border-radius: 15%;
+border-radius: 25%;
+height: 100px;
+width: 10%;
 }
 #Mail{
+border-color: blueviolet;
 position: absolute;
-top: 14%;
-left:36%;
+top: 20%;
+left:34%;
 width: 250px;
 height: 35px;
 text-align: center;
-border-radius: 15%;
+border-radius: 25%;
+height: 100px;
+width: 10%;
 }
 /*сувенирная лавка*/
 #suvinirs1{
