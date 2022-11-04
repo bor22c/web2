@@ -10,7 +10,7 @@ background-color: #F5F5F5;
 }
 #header{
 background-color: rgb(14, 117, 100);
-position: absolute;
+position: relative;
 height: 100px;
 width:100% ;
 top:0%;
@@ -35,17 +35,18 @@ transform:translateX(-50%);
 }
 
 
-#ham
+#cum
 {
-position:relative;
+position:fixed;
 left:100%;
 transform:translateX(-110%);
 width:50px;
 height:50px;
 z-index:100;
+margin-top: -10%;
 border-radius:50%;
 }
-#ham:hover
+#cum:hover
 {
 background:aliceblue;
 }
@@ -58,7 +59,7 @@ border-top:5px solid #000000ab ;
 border-right: 5px solid #000000ab;
 border-bottom: 5px solid #000000ab;
 transition:width 1s, left 1s;
-margin-top: 5%;
+margin-top: 10%;
 left: 100%;
 height: 610px;;
 top:35px;
@@ -85,24 +86,41 @@ height:35px;
 line-height:30px;
 color:aliceblue;
 }
-.rus{
+.textheader1
+{
+font-size:35px;
+position:inherit;
+display:block;
+left:15%;
+top:20px;
+width:90%;
+height:35px;
+line-height:30px;
+color:aliceblue;
+}
+.textheader2
+{
+font-size:35px;
+position:inherit;
+display:block;
+left:25%;
+top:30px;
+width:90%;
+height:35px;
+line-height:30px;
+color:aliceblue;
+}
+.imghed{
+    top: -15%;
+    height: 55%;
+    width: 6%;
+    background-color: #8B4513;
+}
+#kat{
     margin-left: 80%;
-    color:#7FFFD4;
+    color: black;
     font-size: 25px;
-    margin-top: -0%;
-
-}
-.nol{
-    font-size: 35px;
-    color:#7FFFD4;
-    margin-left: 90%;
-    margin-top: -1.5%;
-}
-.eng{
-    font-size: 25px;
-    color:#7FFFD4;
-    margin-left: 84%;
-    margin-top: -1.5%;
+    margin-top: 10%;
 }
 .r
 {
@@ -223,7 +241,7 @@ text-align:center;
 #purchase
 {
 width:100%;
-height: 1300px;
+height: 1800px;
 top:0%;
 position:relative;
 background-color: #7FFFD4; 
@@ -341,6 +359,12 @@ width: 1000px;
 height: 250px;
 border-radius: 0%;
 transform:translateX(-50%);
+}
+#goska{
+    width: 300px;
+height: 500px;
+background-image: url(ner.webp);
+margin-left: -20%;
 }
 #OTZIVI{
 position: absolute;
