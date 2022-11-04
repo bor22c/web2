@@ -1,6 +1,7 @@
 *
 {
 scroll-behavior:smooth;
+color: aliceblue;
 }
 body
 {
@@ -605,4 +606,22 @@ top: 80%;
     height: 200px;
     margin-top: 8%;
     margin-left: 80%;
+}
+#nee{
+    margin-top: 0%;
+    text-align: center;
+}
+.kar{
+    left: 0.5%;
+    width: 400px;
+    height: 400px;
+    margin-top: -25%;
+    border-radius: 10%;
+}
+#texte{
+    margin-top: 0%;
+    margin-left: 40%;
+    color:#FFFFE0;
+    font-size: 30px;
+    background-color:#FFFFE0;
 }
