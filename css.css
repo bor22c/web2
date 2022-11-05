@@ -1,7 +1,6 @@
 *
 {
 scroll-behavior:smooth;
-color: aliceblue;
 }
 body
 {
@@ -44,7 +43,7 @@ transform:translateX(-110%);
 width:50px;
 height:50px;
 z-index:100;
-margin-top: -10%;
+margin-top: -16.5%;
 border-radius:50%;
 }
 #cum:hover
@@ -62,11 +61,11 @@ border-bottom: 5px solid #000000ab;
 transition:width 1s, left 1s;
 margin-top: 10%;
 left: 100%;
-height: 610px;;
+height: 630px;;
 top:35px;
 position:fixed;
 background: rgba(205,205,205,0.1);
-backdrop-filter:blur(10px);
+backdrop-filter:blur(3px);
 text-align:center;
 border-radius: 5%;
 }
@@ -112,23 +111,45 @@ line-height:30px;
 color:aliceblue;
 }
 .imghed{
-    top: -15%;
+    top: -60%;
     height: 55%;
     width: 6%;
     background-color: #8B4513;
 }
-#kat{
-    margin-left: 80%;
-    color: black;
+.rus 
+{
+    color:aliceblue;
+    margin-left: 47%;
     font-size: 25px;
-    margin-top: 10%;
+    margin-top: -5%;
+}
+.eng
+{
+    color:aliceblue;
+    margin-left: 54%;
+    font-size: 25px;
+    margin-top: -0%;
+}
+.see
+{
+    color:aliceblue;
+    margin-left:64%;
+    font-size: 30px;
+    margin-top: 0%;
+}
+.age
+{
+    color: aliceblue;
+    margin-left: 73%;
+    font-size: 25px;
+    margin-top: -0%;
 }
 .r
 {
 width:30px;
 height:3px;
 margin-bottom:10px;
-background:black;
+background:#000000	;
 position:relative;
 left:10px;
 top:10px;
@@ -231,7 +252,7 @@ width:200px;
 top:10px;
 margin-top:50px;
 border-bottom:3px;
-color:#8B4513;
+color: black;
 background-image: url(images/bg.jpg);
 position:relative;
 left:50%;
@@ -242,7 +263,7 @@ text-align:center;
 #purchase
 {
 width:100%;
-height: 1800px;
+height: 1300px;
 top:0%;
 position:relative;
 background-color: #7FFFD4; 
