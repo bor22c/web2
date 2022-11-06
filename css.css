@@ -119,28 +119,28 @@ color:aliceblue;
 .rus 
 {
     color:aliceblue;
-    margin-left: 47%;
+    margin-left: 56%;
     font-size: 25px;
     margin-top: -5%;
 }
 .eng
 {
     color:aliceblue;
-    margin-left: 54%;
+    margin-left: 63%;
     font-size: 25px;
     margin-top: -0%;
 }
 .see
 {
     color:aliceblue;
-    margin-left:64%;
+    margin-left:73%;
     font-size: 30px;
     margin-top: 0%;
 }
 .age
 {
     color: aliceblue;
-    margin-left: 73%;
+    margin-left: 82%;
     font-size: 25px;
     margin-top: -0%;
 }
@@ -189,7 +189,7 @@ height: 1300px;
 top:0%;
 position:relative;
 
-background-color: #E0FFFF;
+background-color: #2E8B57	;
 }
 #title
 {
@@ -216,35 +216,17 @@ height:30px;
 display:inline;
 
 }
-#follow
-{
-font-size:20px;
-text-decoration:none;
-width:62px;
-margin-top:0px;
-margin-left:0px;
-background:rgb(255,41,43,17);
-border-radius:5px;
-display:block;
-color:white;
-padding:10px;
-position:relative;
-left:5%;
-transform:translateX(-49px);
-top: 90%;
-top: 95%;
-}
 
 
 #about
 {
 width:100%;
-height: 600px;
+height: 900px;
 top:0%;
 position:relative;
 text-align: center;
 text-size-adjust: 10;
-background-color: #AFEEEE	;
+background-color: #228B22	;
 }
 .section-title
 {
@@ -260,13 +242,22 @@ font-size:50px;
 transform:translateX(-50%);
 text-align:center;
 }
+
+.andl{
+    margin-left:60% ;
+    margin-top: -13%;
+}
+.and{
+    height: 250px;
+    margin-left: 3%;
+}
 #purchase
 {
 width:100%;
 height: 1300px;
 top:0%;
 position:relative;
-background-color: #7FFFD4; 
+background-color: #3CB371; 
 }
 #mainone{
     margin-top: -0%;
@@ -280,7 +271,7 @@ background-color: #7FFFD4;
     top:0%;
     position:relative;
     margin-top: 1%;
-    background-color: #40E0D0;
+    background-color: #00FF00;
     text-align: center;
 }
 #textcol{
@@ -292,14 +283,14 @@ margin-left: 0%;
     border-radius: 0%;
     width: 25%;
     height: 40%;
-    left: 87%;
+    left: 70%;
     top:-60%;
 }
 #colimk{
     border-radius: 0%;
     width: 25%;
     height: 40%;
-    left: 87%;
+    left: 70%;
     top:-55%;
 }
 #contact
@@ -352,7 +343,7 @@ width:100%;
 height: 800px;
 top:0%;
 position:relative;
-background-color: #48D1CC;
+background-color: #98FB98;
 }
 
 #slider{
@@ -473,6 +464,11 @@ font-size:25px;
 }
 #suvinirs{
 left:45%;
+margin-top:1%;
+}
+.podsk{
+    font-size: 25px;
+    margin-left: 2%;
 }
 #collectionCss
 {
@@ -500,6 +496,11 @@ height: 1000px;
 border-radius: 0%;
 margin-left: 10%;
 transform:translateX(-50%);
+cursor: pointer;
+}
+#prajs:focus{
+    width: 970px;
+    height: 1100px;
 }
 #collectionCssText{
 font-size:23px;
@@ -596,12 +597,12 @@ top: 80%;
 #linkab{
     height: 650px;
     width: 100%;
-    background-color: #5F9EA0;
+    background-color: #98FB98;
 }
 #foopter{
     height:600px;
     width: 100%;
-    background-color: #008080;
+    background-color: #808000;
     margin-top: 0%;
 }
 .footer{
@@ -645,10 +646,4 @@ top: 80%;
     color:#FFFFE0;
     font-size: 30px;
     background-color:#FFFFE0;
-}
-form{
-    width: 100%;
-    height: 100%;
-    background-color: #8B4513;
-    
 }
