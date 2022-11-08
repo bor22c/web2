@@ -218,6 +218,10 @@ width: 1000px;
 height: 1150px;
 border-radius: 0%;
 }
+#prajs :focus{
+    width: 1250;
+    height: 1300;
+}
 
 /* коллекция*/
 
@@ -347,3 +351,4 @@ position:relative;
 background-color: #48D1CC;
 margin-top: 1%;
 }
+
