@@ -291,12 +291,13 @@ margin-top: 1%;
 }
 #OTZIVI{
 position: absolute;
-top: 63%;
+top: 38%;
 left: 2%;
 font-size:20px;
 border-radius: 0%;
 opacity: 0.7;
 text-align: left;
+width: 700px;
 }
 #Сonnection{
 position: absolute;
@@ -316,35 +317,35 @@ opacity: 0.5;
 #SendCss{
 border-color:darkviolet;
 position: absolute;
-top: 36%;
+top: 26%;
 left:44%;
 text-align: center;
 border-radius: 15%;
-height: 100px;
+height: 75px;
 width: 10%;
 }
 #Message{
 border-color: blueviolet;
 position: absolute;
-top: 23%;
+top: 13%;
 left:49%;
 width: 300px;
 height: 35px;
 text-align: center;
 border-radius: 25%;
-height: 100px;
+height: 75px;
 width: 12%;
 }
 #Mail{
 border-color: blueviolet;
 position: absolute;
-top: 23%;
+top: 13%;
 left:36%;
 width: 300px;
 height: 35px;
 text-align: center;
 border-radius: 25%;
-height: 100px;
+height: 75px;
 width: 12%;
 }
 #vkIcon{
@@ -355,6 +356,14 @@ width: 12%;
     top:  89%;
     left: 3%;
     opacity: 0.6;
+}
+#karta{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    top:  33%;
+    left: 60%;
+   
 }
 
 /*сувенирная лавка*/
