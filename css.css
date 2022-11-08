@@ -43,7 +43,7 @@ transform:translateX(-110%);
 width:50px;
 height:50px;
 z-index:100;
-margin-top: -22%;
+margin-top: -10%;
 border-radius:50%;
 }
 #cum:hover
@@ -59,9 +59,9 @@ border-top:5px solid #000000ab ;
 border-right: 5px solid #000000ab;
 border-bottom: 5px solid #000000ab;
 transition:width 1s, left 1s;
-margin-top: 10%;
+margin-top: 5%;
 left: 100%;
-height: 630px;;
+height: 500px;;
 top:35px;
 position:fixed;
 background: rgba(205,205,205,0.1);
@@ -91,7 +91,7 @@ color:aliceblue;
 font-size:35px;
 position:inherit;
 display:block;
-left:15%;
+left:13%;
 top:20px;
 width:90%;
 height:35px;
@@ -103,46 +103,25 @@ color:aliceblue;
 font-size:35px;
 position:inherit;
 display:block;
-left:25%;
+left:11%;
 top:30px;
 width:90%;
 height:35px;
 line-height:30px;
 color:aliceblue;
 }
-.imghed{
-    top: -60%;
-    height: 55%;
-    width: 6%;
-    background-color: #8B4513;
-}
-.rus 
-{
-    color:aliceblue;
-    margin-left: 56%;
-    font-size: 25px;
-    margin-top: -5%;
-}
-.eng
-{
-    color:aliceblue;
-    margin-left: 63%;
-    font-size: 25px;
-    margin-top: -0%;
-}
-.see
-{
-    color:aliceblue;
-    margin-left:73%;
-    font-size: 30px;
-    margin-top: 0%;
-}
-.age
-{
+.tapni{
+    margin-top: -6%;
+    margin-left: 36%;
     color: aliceblue;
-    margin-left: 82%;
-    font-size: 25px;
-    margin-top: -0%;
+}
+.imghed{
+    margin-top: -1%;
+    height: 100px;
+    width: 100px;
+    background-color: #8B4513;
+    margin-left: 0.8%;
+    border-radius: 50%;
 }
 .r
 {
