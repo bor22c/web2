@@ -44,7 +44,7 @@ transform:translateX(-110%);
 width:50px;
 height:50px;
 z-index:100;
-margin-top: -7%;
+margin-top: -9%;
 border-radius:50%;
 }
 #cum:hover
@@ -60,7 +60,7 @@ border-top:5px solid #000000ab ;
 border-right: 5px solid #000000ab;
 border-bottom: 5px solid #000000ab;
 transition:width 1s, left 1s;
-margin-top: 5%;
+margin-top: 9.5%;
 left: 100%;
 height: 500px;;
 top:35px;
@@ -628,6 +628,18 @@ top: 80%;
     margin-top: 0%;
     text-align: center;
 }
+.addrs{
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: -24.9%;
+    color: aliceblue;
+}
+.pro{
+    font-size: 26px;
+    margin-top: -3%;
+    margin-left: 20%;
+    color: aliceblue;
+}
 .kar{
     left: 0.5%;
     width: 400px;
@@ -636,9 +648,36 @@ top: 80%;
     border-radius: 10%;
 }
 #texte{
-    margin-top: 0%;
-    margin-left: 40%;
+    margin-top: 20%;
+    margin-left: 74.5%;
     color:#FFFFE0;
-    font-size: 30px;
-    background-color:#FFFFE0;
+    font-size: 20px;
+}
+.topnax{
+    top: 10%;
+
+}
+.cals{
+    font-size: 20px;
+    margin-left: 39%;
+    margin-top: -45%;
+    color: aliceblue;
+}
+.bom{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: -20%;
+    color: aliceblue;
+}
+.DD{
+    font-size: 25px;
+    margin-left: 16%;
+    margin-top: 2%;
+}
+#oo{
+    margin-top: -4%;
+    margin-left: 1%;
+    border-radius: 0%;
+    width: 540px;
+    height: 450px;
 }
