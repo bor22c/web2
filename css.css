@@ -283,7 +283,7 @@ left: 1%;
 #contact
 {
 width:100%;
-height: 800px;
+height: 1300px;
 top:0%;
 position:relative;
 background-color: #48D1CC;
@@ -291,8 +291,8 @@ margin-top: 1%;
 }
 #OTZIVI{
 position: absolute;
-top: 38%;
-left: 2%;
+top: 67%;
+left: 0%;
 font-size:20px;
 border-radius: 0%;
 opacity: 0.7;
@@ -308,8 +308,8 @@ border-radius: 0%;
 }
 #Сreators{
 position: absolute;
-top: 90%;
-left: 90%;
+top: 93%;
+left: 93%;
 font-size:20px;
 border-radius: 0%;
 opacity: 0.5;
@@ -317,10 +317,10 @@ opacity: 0.5;
 #SendCss{
 border-color:darkviolet;
 position: absolute;
-top: 26%;
+top: 85%;
 left:44%;
 text-align: center;
-border-radius: 15%;
+border-radius: 25%;
 height: 75px;
 width: 10%;
 background-color: white;
@@ -328,7 +328,7 @@ background-color: white;
 #Message{
 border-color: blueviolet;
 position: absolute;
-top: 13%;
+top: 76%;
 left:49%;
 width: 300px;
 height: 35px;
@@ -340,7 +340,7 @@ width: 12%;
 #Mail{
 border-color: blueviolet;
 position: absolute;
-top: 13%;
+top: 76%;
 left:36%;
 width: 300px;
 height: 35px;
@@ -354,7 +354,7 @@ width: 12%;
     border-radius: 50%;
     height: 75px;
     width: 75px;
-    top:  89%;
+    top:  93%;
     left: 3%;
     opacity: 0.6;
 }
@@ -362,7 +362,7 @@ width: 12%;
     position: absolute;
     height: 475px;
     width: 675px;
-    top:  28%;
+    top:  8%;
     left: 63%;
    
 }
@@ -370,9 +370,27 @@ width: 12%;
     position: absolute;
     height: 475px;
     width: 675px;
-    top:  20%;
+    top:  0.5%;
     left: 78%;
     font-size:30px;
+}
+#rezim{
+position: absolute;
+top: 20%;
+left: 0%;
+font-size:20px;
+border-radius: 0%;
+opacity: 0.7;
+text-align: left;
+width: 800px;
+}
+#vkIcon2{
+    position: absolute;
+    height: 75px;
+    width: 300px;
+    top:  93%;
+    left: 7%;
+    opacity: 0.6;
 }
 
 /*сувенирная лавка*/
