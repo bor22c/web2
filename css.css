@@ -39,7 +39,7 @@ transform:translateX(-50%);
 #cum
 {
 position:fixed;
-margin-left: 96%;
+margin-left: 99%;
 transform:translateX(-110%);
 width:50px;
 height:50px;
@@ -284,14 +284,14 @@ margin-left: 0%;
     border-radius: 0%;
     width: 25%;
     height: 40%;
-    left: 70%;
+    left: 73%;
     top:-60%;
 }
 #colimk{
     border-radius: 0%;
     width: 25%;
     height: 40%;
-    left: 70%;
+    left: 73%;
     top:-55%;
 }
 #contact
@@ -606,12 +606,12 @@ top: 80%;
     background-color: #808000;
     margin-top: 0%;
 }
-.footer{
+.work{
     color:#FFFFE0 ;
     font-size: 20px;
     left: 60%;
   margin-left: 75%;
-  margin-top: -1%;
+  margin-top: 1%;
 
 }
 .bigfot{
@@ -664,6 +664,7 @@ top: 80%;
     margin-left: 20%;
     margin-top: -23%;
     color: aliceblue;
+    display: flex;
 }
 .DD{
     font-size: 25px;
@@ -671,9 +672,14 @@ top: 80%;
     margin-top: 2%;
 }
 #oo{
-    margin-top: -4%;
-    margin-left: 1%;
+    margin-top: 1%;
+    margin-left: 2%;
     border-radius: 0%;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+}
+#oo:hover {
     width: 540px;
-    height: 450px;
+    height: 550px;
 }
