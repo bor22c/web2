@@ -92,14 +92,14 @@ border-radius:5px;
 width: 100%;
 height: 50px;
 background-color: #000000ab;
-position: absolute;
+position: relative;
 }
 
 /*кнопка меню */
 
 #ham
 {
-position:relative;
+position:fixed;
 left:100%;
 transform:translateX(-110%);
 width:50px;
@@ -266,14 +266,14 @@ left: 1%;
 #colectimg{
     left:72% ;
     position: absolute;
-    width: 300px;
+    width: 325px;
     height: 300px;
     top: 10%;
 }
 #colect2{
     left:72% ;
     position: absolute;
-    width: 300px;
+    width: 325px;
     height: 300px;   
     top: 50%;
 }
@@ -309,7 +309,7 @@ border-radius: 0%;
 #Сreators{
 position: absolute;
 top: 93%;
-left: 93%;
+left: 90%;
 font-size:20px;
 border-radius: 0%;
 opacity: 0.5;
@@ -317,8 +317,8 @@ opacity: 0.5;
 #SendCss{
 border-color:darkviolet;
 position: absolute;
-top: 85%;
-left:44%;
+top: 84%;
+left:72%;
 text-align: center;
 border-radius: 25%;
 height: 75px;
@@ -329,7 +329,7 @@ background-color: white;
 border-color: blueviolet;
 position: absolute;
 top: 76%;
-left:49%;
+left:79%;
 width: 300px;
 height: 35px;
 text-align: center;
@@ -341,7 +341,7 @@ width: 12%;
 border-color: blueviolet;
 position: absolute;
 top: 76%;
-left:36%;
+left:64%;
 width: 300px;
 height: 35px;
 text-align: center;
@@ -361,23 +361,23 @@ width: 12%;
 #karta{
     position: absolute;
     height: 475px;
-    width: 675px;
+    width: 475px;
     top:  8%;
-    left: 63%;
+    left: 60%;
    
 }
 #pyt{
     position: absolute;
-    height: 475px;
-    width: 675px;
-    top:  0.5%;
-    left: 78%;
+    height: 175px;
+    width: 175px;
+    top:  1%;
+    left: 73%;
     font-size:30px;
 }
 #rezim{
 position: absolute;
 top: 20%;
-left: 0%;
+left: 2%;
 font-size:20px;
 border-radius: 0%;
 opacity: 0.7;
