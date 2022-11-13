@@ -430,7 +430,7 @@ width: 10%;
 #Message{
 border-color: blueviolet;
 position: absolute;
-top: -20%;
+top: 20%;
 left:50%;
 width: 250px;
 height: 35px;
@@ -442,7 +442,7 @@ width: 10%;
 #Mail{
 border-color: blueviolet;
 position: absolute;
-top: -20%;
+top: 20%;
 left:34%;
 width: 250px;
 height: 35px;
