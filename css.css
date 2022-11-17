@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display+SC:ital@0;1&display=swap');
 *
 {
 scroll-behavior:smooth;
@@ -8,6 +10,7 @@ body
 margin:0px;
 padding:0px;
 background-color: #F5F5F5;
+font-family: 'Marcellus', serif;
 }
 #header{
 background-color: rgb(14, 117, 100);
@@ -15,6 +18,7 @@ position: relative;
 height: 100px;
 width:100% ;
 top:0%;
+font-family: 'Marcellus', serif;
 }
 
 
@@ -31,9 +35,10 @@ background:rgb(42,41,43);
 {
 width:200px;
 height:150px;
-left: 50%;
+margin-left: 10%;
 border-radius: 10%;
 transform:translateX(-50%);
+margin-top: -6%;
 }
 
 #cum
@@ -221,36 +226,37 @@ position:relative;
 text-align: center;
 text-size-adjust: 10;
 background-color: #228B22	;
+font-family: 'Playfair Display SC', serif;
 }
 .section-title
 {
 width:200px;
 top:10px;
-margin-top:50px;
+margin-top:10px;
 border-bottom:3px;
-color: black;
+color:aliceblue;
 background-image: url(images/bg.jpg);
 position:relative;
-left:50%;
+margin-left:50%;
 font-size:50px;
 transform:translateX(-50%);
 text-align:center;
+display:grid;
 }
-
 .andl{
     margin-left:60% ;
-    margin-top: -19%;
+    margin-top: -16%;
     border-radius: 10%;
     width: 470px;
-    height: 300px;
+    height: 260px;
 }
 .and{
-    margin-top: 2%;
+    margin-top: 1%;
     height: 250px;
     margin-left: 3%;
     border-radius: 10%;
     width: 450px;
-    height: 300px;
+    height: 260px;
 }
 #purchase
 {
@@ -258,7 +264,8 @@ width:100%;
 height: 1300px;
 top:0%;
 position:relative;
-background-color: #3CB371; 
+background-color: #6B8E23; 
+font-family: 'Playfair Display SC', serif;
 }
 #mainone{
     margin-top: -0%;
@@ -274,6 +281,7 @@ background-color: #3CB371;
     margin-top: 1%;
     background-color: #2E8B57;
     text-align: center;
+    font-family: 'Playfair Display SC', serif;
 }
 #textcol{
 font-size: 25px;
@@ -282,17 +290,17 @@ margin-left: 0%;
 }
 #colimg{
     border-radius: 0%;
-    width: 25%;
-    height: 40%;
-    left: 73%;
-    top:-60%;
+    width: 220px;
+    height: 202px;
+    left: 83%;
+    top:-70%;
 }
 #colimk{
     border-radius: 0%;
-    width: 25%;
-    height: 40%;
-    left: 73%;
-    top:-55%;
+    width: 240px;
+    height: 270px;
+    left: 84%;
+    top:-45%;
 }
 #contact
 {
@@ -502,6 +510,7 @@ cursor: pointer;
 #prajs:focus{
     width: 970px;
     height: 1100px;
+    margin-left: 12%;
 }
 #collectionCssText{
 font-size:23px;
@@ -529,7 +538,7 @@ left: 60%;
 }
 #suvinirsText4{
 position: absolute;
-top: 26%;
+top: 27.5%;
 left: 60%;
 }
 #suvinirsText5{
@@ -549,12 +558,12 @@ left: 60%;
     }
     #suvinirsText8{
         position: absolute;
-        top: 47%;
+        top: 49%;
         left: 60%;
         }
         #suvinirsText9{
             position: absolute;
-            top: 55%;
+            top: 58%;
             left: 60%;
             }
 #Colect2
@@ -605,6 +614,7 @@ top: 80%;
     width: 100%;
     background-color: #808000;
     margin-top: 0%;
+    font-family: 'Playfair Display SC', serif;
 }
 .work{
     color:#FFFFE0 ;
@@ -629,9 +639,9 @@ top: 80%;
     text-align: center;
 }
 .addrs{
-    font-size: 20px;
-    margin-left: 38%;
-    margin-top: -25%;
+    font-size: 18px;
+    margin-left: 36%;
+    margin-top: -32%;
     color: aliceblue;
 }
 .pro{
