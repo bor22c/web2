@@ -134,10 +134,11 @@ background:aliceblue;
 {
 width:15%;
 z-index:100;
-border-left:5px solid rgb(248, 8, 8);
-border-top:5px solid rgb(255, 6, 6) ;
-border-right: 5px solid rgb(255, 8, 8);
-border-bottom: 5px solid rgb(248, 8, 8);
+border-left:2px solid rgb(248, 8, 8);
+border-top:2px solid rgb(255, 6, 6) ;
+border-right: 2px solid rgb(255, 8, 8);
+border-bottom: 2px solid rgb(248, 8, 8);
+border-radius: 10%;
 transition:width 1s, left 1s;
 margin-top: 3%;
 left: 100%;
@@ -146,6 +147,7 @@ position:fixed;
 background: rgba(205,205,205,0.1);
 backdrop-filter:blur(10px);
 text-align:center;
+
 }
 #menu>*
 {
