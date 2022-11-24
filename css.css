@@ -29,9 +29,11 @@ line-height:30px;
 color:aliceblue;
 left: 10%;
 }
-#logo{
-    border-radius: 60%;
-    top: 1%;
+.link{
+    margin-left: 3%;
+    position: relative;
+    left: 24%;
+    top: 10%;
 }
 .r
 {
@@ -82,14 +84,16 @@ display:block;
 border-radius:5px;
 }
 .language{
-    top: 0%;
+    top: 10%;
     position: absolute;
-    left: 80%;
+    left: 85%;
+    font-size: 30px;
 }
 .language2{
-    top: 0%;
+    top: 10%;
     position: absolute;
-    left: 86%;
+    left: 92%;
+    font-size: 30px;
 }
 /*хедер */
 
@@ -98,6 +102,12 @@ width: 100%;
 height: 100px;
 background-color: #000000ab;
 position: relative;
+}
+#logo{
+    border-radius: 60%;
+    top: 10%;
+    left: 0%;
+    position: relative;
 }
 
 /*кнопка меню */
@@ -146,7 +156,7 @@ left: 100%;
 height:40px;
 line-height:30px;
 text-decoration:none;
-margin-top:18%;
+margin-top:19%;
 display:block;
 border-radius:40px;
 }
@@ -163,7 +173,7 @@ width:100%;
 height: 1300px;
 top:0%;
 position:relative;
-background-color: #40E0D0; 
+background-color: #2E8B57;
 }
 
 
@@ -177,7 +187,7 @@ top:0%;
 position:relative;
 text-align: left;
 text-size-adjust: 10;
-background-color:  #AFEEEE;
+background-color: #228B22;
 margin-top: 1%;
 }
 #aboutText{
@@ -187,9 +197,9 @@ font-size:20px;
 font-size:25px;
 }
 #aboutJpg1{
-    width: 675px;
-    height: 300px;
-    top: 59%;
+    width: 700px;
+    height: 325px;
+    top: 56%;
     left: 30%;
     position: absolute;
 }
@@ -203,7 +213,7 @@ height: 1300px;
 top:0%;
 position:relative;
 margin-top: 1%;
-background-color:  #7FFFD4;
+background-color: #6B8E23;
 }
 #follow
 {
@@ -244,7 +254,7 @@ height: 800px;
 top:0%;
 position:relative;
 margin-top: 1%;
-background-color: #40E0D0;
+background-color: #2E8B57;
 text-align: center;
 }
 #collectionCss
@@ -292,13 +302,13 @@ width:100%;
 height: 1300px;
 top:0%;
 position:relative;
-background-color: #48D1CC;
+background-color: #6B8E23;
 margin-top: 1%;
 }
 #OTZIVI{
 position: absolute;
-top: 67%;
-left: 0%;
+top: 52%;
+left: 2%;
 font-size:20px;
 border-radius: 0%;
 opacity: 0.7;
@@ -323,7 +333,7 @@ opacity: 0.5;
 #SendCss{
 border-color:darkviolet;
 position: absolute;
-top: 84%;
+top: 60%;
 left:72%;
 text-align: center;
 border-radius: 25%;
@@ -334,7 +344,7 @@ background-color: white;
 #Message{
 border-color: blueviolet;
 position: absolute;
-top: 76%;
+top: 52%;
 left:79%;
 width: 300px;
 height: 35px;
@@ -346,7 +356,7 @@ width: 12%;
 #Mail{
 border-color: blueviolet;
 position: absolute;
-top: 76%;
+top: 52%;
 left:64%;
 width: 300px;
 height: 35px;
@@ -368,8 +378,8 @@ width: 12%;
     position: absolute;
     height: 475px;
     width: 475px;
-    top:  8%;
-    left: 60%;
+    top:  7%;
+    left: 63%;
    
 }
 #pyt{
@@ -382,11 +392,10 @@ width: 12%;
 }
 #rezim{
 position: absolute;
-top: 20%;
+top: 12%;
 left: 2%;
 font-size:20px;
 border-radius: 0%;
-opacity: 0.7;
 text-align: left;
 width: 800px;
 }
@@ -395,7 +404,7 @@ width: 800px;
     height: 75px;
     width: 300px;
     top:  93%;
-    left: 7%;
+    left: 8%;
     opacity: 0.6;
 }
 
@@ -406,7 +415,7 @@ width:100%;
 height: 800px;
 top:0%;
 position:relative;
-background-color: #48D1CC;
+background-color: #808000;
 margin-top: 1%;
 }
 
