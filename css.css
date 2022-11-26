@@ -241,20 +241,20 @@ transform:translateX(-50%);
 text-align:center;
 display:grid;
 }
-.andl{
-    margin-left:60% ;
-    margin-top: 1%;
-    border-radius: 10%;
-    width: 470px;
-    height: 260px;
-}
 .and{
-    margin-top: -17.5%;
+    margin-top:0%;
     height: 250px;
     margin-left: 3%;
     border-radius: 10%;
     width: 450px;
-    height: 260px;
+    height: 240px;
+}
+.andl{
+    margin-left:60% ;
+    margin-top: -15%;
+    border-radius: 10%;
+    width: 470px;
+    height: 240px;
 }
 #purchase
 {
@@ -276,7 +276,7 @@ font-family: 'Playfair Display SC', serif;
     height: 750px;
     top:0%;
     position:relative;
-    background-color: #2E8B57;
+    background-color: #006400;
     text-align: center;
     font-family: 'Playfair Display SC', serif;
 }
@@ -380,22 +380,6 @@ height: 250px;
 border-radius: 0%;
 transform:translateX(-50%);
 }
-#goska{
-    width: 300px;
-height: 500px;
-background-image: url(ner.webp);
-margin-left: -20%;
-}
-#OTZIVI{
-position: absolute;
-top: 75%;
-left: 2%;
-font-size:20px;
-border-radius: 0%;
-opacity: 0.7;
-text-align: left;
-
-}
 #Cvaz{
 position:absolute;
 top: 0%;
@@ -403,10 +387,6 @@ left:42%;
 text-align: center;
 border-radius: 0%;
 color: aliceblue;
-}
-#textinf{
-    text-align: center;
-    font-size: medium;
 }
 #Link1{
 position: absolute;
@@ -593,7 +573,7 @@ top: 80%;
 #collectionCssText2{
     font-size:20px;
 }
-#linkab{
+.linkab{
     height: 650px;
     width: 100%;
     background-color: #6B8E23;
@@ -685,7 +665,7 @@ top: 80%;
     width: 400px;
 }
 #oo:hover {
-    width: 540px;
+    width: 500px;
     height: 550px;
 }
 .navigation1{
@@ -722,4 +702,7 @@ top: 80%;
     margin-left: 35.9%;
     margin-top: -7%;
 
+}
+.otz{
+    margin-top: 3%;
 }
