@@ -486,9 +486,9 @@ transform:translateX(-50%);
 cursor: pointer;
 }
 .prajs:hover{
-    width: 900px;   /* похоже проблема тут*/
+    width: 850px;   /* похоже проблема тут*/
     height: 900px;
-    margin-left: 12%;
+    margin-left: 15%;
 }
 #collectionCssText{
 font-size:23px;
