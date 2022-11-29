@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display+SC:ital@0;1&display=swap');
 *
 {
 scroll-behavior:smooth;
@@ -8,6 +10,7 @@ body
 margin:0px;
 padding:0px;
 background-color: #F5F5F5;
+font-family: 'Marcellus', serif;
 }
 #header{
 background-color: rgb(14, 117, 100);
@@ -15,6 +18,7 @@ position: relative;
 height: 100px;
 width:100% ;
 top:0%;
+font-family: 'Marcellus', serif;
 }
 
 
@@ -31,9 +35,10 @@ background:rgb(42,41,43);
 {
 width:200px;
 height:150px;
-left: 50%;
+margin-left: 10%;
 border-radius: 10%;
 transform:translateX(-50%);
+margin-top: -6%;
 }
 
 #cum
@@ -49,23 +54,22 @@ border-radius:50%;
 }
 #cum:hover
 {
-background:aliceblue;
+background:#2F4F4F;
 }
 #menu
 {
 width:15%;
 z-index:100;
-border-left:5px solid #000000ab;
-border-top:5px solid #000000ab ;
-border-right: 5px solid #000000ab;
-border-bottom: 5px solid #000000ab;
+border-left:2px solid #2F4F4F;
+border-top:2px solid #2F4F4F ;
+border-right: 2px solid #2F4F4F;
+border-bottom: 2px solid #2F4F4F;
 transition:width 1s, left 1s;
-margin-top: 9.5%;
+margin-top: 10.5%;
 left: 100%;
-height: 500px;;
+height: 485px;;
 top:35px;
 position:fixed;
-background: rgba(205,205,205,0.1);
 backdrop-filter:blur(3px);
 text-align:center;
 border-radius: 5%;
@@ -73,7 +77,7 @@ border-radius: 5%;
 #header{
 width: 100%;
 height: 200px;
-background-color: #000000ab;
+background-color: #696969;
 }
 .textheader
 {
@@ -138,12 +142,11 @@ color:aliceblue;
         position: relative;
     }
     }
-.r
-{
+.r{
 width:30px;
 height:3px;
 margin-bottom:10px;
-background:black;
+background:aliceblue;
 position:relative;
 left:10px;
 top:10px;
@@ -152,7 +155,7 @@ border-radius:10px;
 #menu>*
 {
 font-size:20px;
-color:#000;
+color:aliceblue;
 text-align:center;
 left: 100%;
 height:40px;
@@ -165,7 +168,7 @@ border-radius:40px;
 }
 #menu>a:hover
 {
-background:rgba(114, 6, 6, 0.247);
+background:#2F4F4F;
 }
 #scroll
 {
@@ -221,44 +224,46 @@ position:relative;
 text-align: center;
 text-size-adjust: 10;
 background-color: #228B22	;
+font-family: 'Playfair Display SC', serif;
 }
 .section-title
 {
 width:200px;
 top:10px;
-margin-top:50px;
+margin-top:10px;
 border-bottom:3px;
-color: black;
+color:aliceblue;
 background-image: url(images/bg.jpg);
 position:relative;
-left:50%;
+margin-left:50%;
 font-size:50px;
 transform:translateX(-50%);
 text-align:center;
-}
-
-.andl{
-    margin-left:60% ;
-    margin-top: -19%;
-    border-radius: 10%;
-    width: 470px;
-    height: 300px;
+display:grid;
 }
 .and{
-    margin-top: 2%;
+    margin-top:0%;
     height: 250px;
     margin-left: 3%;
     border-radius: 10%;
     width: 450px;
-    height: 300px;
+    height: 240px;
+}
+.andl{
+    margin-left:60% ;
+    margin-top: -15%;
+    border-radius: 10%;
+    width: 470px;
+    height: 240px;
 }
 #purchase
 {
 width:100%;
-height: 1300px;
+height: 1150px;
 top:0%;
 position:relative;
-background-color: #3CB371; 
+background-color: #6B8E23; 
+font-family: 'Playfair Display SC', serif;
 }
 #mainone{
     margin-top: -0%;
@@ -268,31 +273,32 @@ background-color: #3CB371;
 
 #colect{
     width:100%;
-    height: 900px;
+    height: 750px;
     top:0%;
     position:relative;
-    margin-top: 1%;
-    background-color: #2E8B57;
+    background-color: #006400;
     text-align: center;
+    font-family: 'Playfair Display SC', serif;
 }
 #textcol{
-font-size: 25px;
+font-size: 20px;
 text-align: left;
-margin-left: 0%;
+margin-left: 2%;
+margin-top: 1%;
 }
-#colimg{
-    border-radius: 0%;
-    width: 25%;
-    height: 40%;
-    left: 73%;
-    top:-60%;
+.cole{
+margin-top: -35%;
+ margin-left: 78%;
+ border-radius: 3%;
+ width: 300px;
+ height: 300px;
 }
-#colimk{
-    border-radius: 0%;
-    width: 25%;
-    height: 40%;
-    left: 73%;
-    top:-55%;
+.cove{
+    border-radius: 3%;
+    width: 300px;
+    height: 300px;
+    left: 78%;
+    top:4%;
 }
 #contact
 {
@@ -374,22 +380,6 @@ height: 250px;
 border-radius: 0%;
 transform:translateX(-50%);
 }
-#goska{
-    width: 300px;
-height: 500px;
-background-image: url(ner.webp);
-margin-left: -20%;
-}
-#OTZIVI{
-position: absolute;
-top: 75%;
-left: 2%;
-font-size:20px;
-border-radius: 0%;
-opacity: 0.7;
-text-align: left;
-
-}
 #Cvaz{
 position:absolute;
 top: 0%;
@@ -397,10 +387,6 @@ left:42%;
 text-align: center;
 border-radius: 0%;
 color: aliceblue;
-}
-#textinf{
-    text-align: center;
-    font-size: medium;
 }
 #Link1{
 position: absolute;
@@ -488,20 +474,21 @@ left:3%;
 transform:translateX(-49px);
 top: 80%;
 }
-#prajs{
+.prajs{
 position: absolute;
 top: 13%;
 left: 15%;
-width: 750px;
-height: 1000px;
+width: 640px;
+height: 700px;
 border-radius: 0%;
 margin-left: 10%;
 transform:translateX(-50%);
 cursor: pointer;
 }
-#prajs:focus{
-    width: 970px;
-    height: 1100px;
+.prajs:hover{
+    width: 900px;   /* похоже проблема тут*/
+    height: 900px;
+    margin-left: 12%;
 }
 #collectionCssText{
 font-size:23px;
@@ -529,32 +516,32 @@ left: 60%;
 }
 #suvinirsText4{
 position: absolute;
-top: 26%;
+top: 29%;
 left: 60%;
 }
 #suvinirsText5{
 position: absolute;
-top: 31%;
+top: 38%;
 left: 60%;
 }
 #suvinirsText6{
 position: absolute;
-top: 36%;
+top: 43%;
 left: 60%;
 }
 #suvinirsText7{
     position: absolute;
-    top: 41.5%;
+    top: 53%;
     left: 60%;
     }
     #suvinirsText8{
         position: absolute;
-        top: 47%;
+        top: 65%;
         left: 60%;
         }
         #suvinirsText9{
             position: absolute;
-            top: 55%;
+            top: 79%;
             left: 60%;
             }
 #Colect2
@@ -577,15 +564,6 @@ left:3%;
 transform:translateX(-49px);
 top: 80%;
 }
-#prajs{
-    position: absolute;
-    top: 13%;
-    left: 15%;
-    width: 750px;
-    height: 1000px;
-    border-radius: 0%;
-    margin-left: 10%;
-}
 #collectionCssText{
     font-size:23px;
     left:37%;
@@ -595,7 +573,7 @@ top: 80%;
 #collectionCssText2{
     font-size:20px;
 }
-#linkab{
+.linkab{
     height: 650px;
     width: 100%;
     background-color: #6B8E23;
@@ -605,6 +583,7 @@ top: 80%;
     width: 100%;
     background-color: #808000;
     margin-top: 0%;
+    font-family: 'Playfair Display SC', serif;
 }
 .work{
     color:#FFFFE0 ;
@@ -616,7 +595,7 @@ top: 80%;
 }
 .bigfot{
     margin-left: 75%;
-    margin-top: 4%;
+    margin-top: 1%;
     color:#FFFFE0 ;
 }
 .vk{
@@ -629,16 +608,22 @@ top: 80%;
     text-align: center;
 }
 .addrs{
-    font-size: 20px;
-    margin-left: 38%;
-    margin-top: -25%;
+    font-size: 18px;
+    margin-left: 36%;
+    margin-top: -32%;
     color: aliceblue;
 }
 .pro{
     font-size: 26px;
-    margin-left: 22%;
-    margin-top: -28%;
+    margin-left: 23%;
+    margin-top: -27%;
     color: aliceblue;
+}
+.pros{
+    margin-right: 40%;
+    margin-top: 0%;
+    color: aliceblue;
+    font-size: 18px;
 }
 .kar{
     left: 0.5%;
@@ -680,7 +665,7 @@ top: 80%;
     width: 400px;
 }
 #oo:hover {
-    width: 540px;
+    width: 500px;
     height: 550px;
 }
 .navigation1{
@@ -717,4 +702,7 @@ top: 80%;
     margin-left: 35.9%;
     margin-top: -8%;
 
+}
+.otz{
+    margin-top: 3%;
 }
